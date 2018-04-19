@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="etserver" uploadOnCheckin="d4b3043d-13a8-446e-b247-2f82de45f55e" compareModeInSync="TIMESTAMP">
+    <serverData>
+      <paths name="Et Slider Plugin">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="etserver">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html/wp-content/themes/caru" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="etserver" />
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
