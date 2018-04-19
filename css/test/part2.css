@@ -1,0 +1,92 @@
+body{padding-top:3rem;padding-bottom:3rem;color:#5A5A5A}.carousel{margin-bottom:4rem}.carousel-caption{background:rgba(0,0,0,.4);padding:20px;right:70%;position:absolute;bottom:40px;left:5%;z-index:10;color:#FFF;text-align:center;top:35px}.carousel-item{height:26rem;background-color:#777}.carousel-item>img{position:absolute;top:0;left:0;min-width:100%;height:26rem}.marketing .col-lg-4{margin-bottom:1.5rem;text-align:center}.marketing h2{font-weight:400}.marketing .col-lg-4 p{margin-right:.75rem;margin-left:.75rem}.featurette-divider{margin:5rem 0}.featurette-heading{font-weight:300;line-height:1;letter-spacing:-.05rem}@media (min-width:40em){.carousel-caption p{margin-bottom:1.25rem;font-size:1.25rem;line-height:1.4}.featurette-heading{font-size:50px}}@media (min-width:62em){.featurette-heading{margin-top:7rem}}#map{height:400px;width:100%}#etbar{height:45px}a#wamsgetimue{color:#1EBEA5}
+/* TapList */
+.spina1,.spina2,.spina3,.spina4,.spina5,.spina6,.spina7,.spina8,.spina9,.spina10{border:1px solid #42642F}.spina6,.spina7,.spina8,.spina9,.spina10{border-top:none}.spina1,.spina2,.spina3,.spina4,.spina6,.spina7,.spina8,.spina9{border-right: none}.spina1{border-top-left-radius:3px}.spina5{border-top-right-radius:3px}.spina6{border-bottom-left-radius:3px}.spina10{border-bottom-right-radius:3px}
+
+/* Accordion */
+.accordion.accordion-1 p {
+	font-size: 1rem; }
+
+.accordion.accordion-1 .card {
+	border: 0; }
+.accordion.accordion-1 .card .card-header {
+	border: 0; }
+.accordion.accordion-1 .card .card-body {
+	line-height: 1.4; }
+img.cantinacollapse{
+	max-height: 64px;
+	max-width: 64px;}
+
+/*
+Colorbox
+ */
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden; -webkit-transform: translate3d(0,0,0);}
+#cboxWrapper {max-width:none;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/*
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:#000; opacity: 0.9; filter: alpha(opacity = 90);}
+#colorbox{outline:0;}
+#cboxTopLeft{width:14px; height:14px; background:url(images/controls.png) no-repeat 0 0;}
+#cboxTopCenter{height:14px; background:url(images/border.png) repeat-x top left;}
+#cboxTopRight{width:14px; height:14px; background:url(images/controls.png) no-repeat -36px 0;}
+#cboxBottomLeft{width:14px; height:43px; background:url(images/controls.png) no-repeat 0 -32px;}
+#cboxBottomCenter{height:43px; background:url(images/border.png) repeat-x bottom left;}
+#cboxBottomRight{width:14px; height:43px; background:url(images/controls.png) no-repeat -36px -32px;}
+#cboxMiddleLeft{width:14px; background:url(images/controls.png) repeat-y -175px 0;}
+#cboxMiddleRight{width:14px; background:url(images/controls.png) repeat-y -211px 0;}
+#cboxContent{background:#fff; overflow:visible;}
+.cboxIframe{background:#fff;}
+#cboxError{padding:50px; border:1px solid #ccc;}
+#cboxLoadedContent{margin-bottom:5px;}
+#cboxLoadingOverlay{background:url(images/loading_background.png) no-repeat center center;}
+#cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+#cboxTitle{position:absolute; bottom:-25px; left:0; text-align:center; width:100%; font-weight:bold; color:#7C7C7C;}
+#cboxCurrent{position:absolute; bottom:-25px; left:58px; font-weight:bold; color:#7C7C7C;}
+
+/* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible;  position:absolute; bottom:-29px; background:url(images/controls.png) no-repeat 0px 0px; width:23px; height:23px; text-indent:-9999px;}
+
+/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+#cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+
+#cboxPrevious{left:0px; background-position: -51px -25px;}
+#cboxPrevious:hover{background-position:-51px 0px;}
+#cboxNext{left:27px; background-position:-75px -25px;}
+#cboxNext:hover{background-position:-75px 0px;}
+#cboxClose{right:0; background-position:-100px -25px;}
+#cboxClose:hover{background-position:-100px 0px;}
+
+.cboxSlideshow_on #cboxSlideshow{background-position:-125px 0px; right:27px;}
+.cboxSlideshow_on #cboxSlideshow:hover{background-position:-150px 0px;}
+.cboxSlideshow_off #cboxSlideshow{background-position:-150px -25px; right:27px;}
+.cboxSlideshow_off #cboxSlideshow:hover{background-position:-125px 0px;}
+/*
+Divisore bun
+ */
+.bun-divider {margin: 1rem 0;border-top: none !important;}
+
+hr.style14 {
+	border: 0 !important;
+	height: 1px !important;
+	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0) !important;
+	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0) !important;
+	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0) !important;
+	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0) !important;
+}
