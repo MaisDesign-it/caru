@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3937bef-6cb4-4be0-8346-aadcdf50478b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/template-parts/menucibo/area-unici.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/area-bun.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/area-bun.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/page-menucibo.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/page-menucibo.php" afterDir="false" />
     </list>
     <ignored mask="*.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +17,11 @@
   <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page-menucibo.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page-menucibo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template-parts/page-menucibo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+            <state relative-caret-position="238">
+              <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -100,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="area-bun.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="area-bun.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-bun.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -112,20 +113,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
+      <file leaf-file-name="area-dolci.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-dolci.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="39" column="31" selection-start-line="25" selection-start-column="4" selection-end-line="39" selection-end-column="31" />
+            <state relative-caret-position="17">
+              <caret line="1" column="14" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site-branding.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/header/site-branding.php">
+      <file leaf-file-name="area-unici.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-unici.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="227" />
+            <state relative-caret-position="17">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -211,7 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/template-parts/nav/class-wp-bootstrap-navwalker.php" />
         <option value="$PROJECT_DIR$/template-parts/frontpage-carousel/frontpage-carousel.php" />
         <option value="$PROJECT_DIR$/template-parts/navigation/navigation-top.php" />
         <option value="$PROJECT_DIR$/template-parts/page/frontpage-marketing.php" />
@@ -260,8 +260,9 @@
         <option value="$PROJECT_DIR$/css/mainstyle.css" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-crepe.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-piadina.php" />
-        <option value="$PROJECT_DIR$/template-parts/page-menucibo.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-bun.php" />
+        <option value="$PROJECT_DIR$/template-parts/menucibo/area-unici.php" />
+        <option value="$PROJECT_DIR$/template-parts/page-menucibo.php" />
       </list>
     </option>
   </component>
@@ -528,7 +529,7 @@
       <workItem from="1524152498529" duration="15968000" />
       <workItem from="1524176687410" duration="1769000" />
       <workItem from="1524184248560" duration="4651000" />
-      <workItem from="1524239076459" duration="11912000" />
+      <workItem from="1524239076459" duration="12000000" />
     </task>
     <task id="LOCAL-00001" summary="Primo upload">
       <created>1524173623900</created>
@@ -579,11 +580,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524264255698</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&#10;Ssitemato titolo bun">
+      <created>1524264969555</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1524264969555</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262505000" />
+    <option name="totallyTimeSpent" value="262593000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -665,7 +673,8 @@
     <MESSAGE value="Sistemato loop e divisore piadine" />
     <MESSAGE value="Aggiunto stile divisore piadine: &#10;border-width: 3px 3px 3px 0;&#10;    border-style: solid;&#10;    -webkit-border-image: &#10;      -webkit-gradient(linear, 0 0, 100% 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;&#10;    -webkit-border-image: &#10;      -webkit-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%;&#10;    -moz-border-image:&#10;      -moz-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%; &#10;    -o-border-image:&#10;      -o-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%;&#10;    border-image:&#10;      linear-gradient(to left, black, rgba(0, 0, 0, 0)) 1 100%;" />
     <MESSAGE value="Sistemata logica pagina piadine e crepe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sistemata logica pagina piadine e crepe" />
+    <MESSAGE value="&#10;Ssitemato titolo bun" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Ssitemato titolo bun" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\wamp64\www\wordpress</wordpressPath>
@@ -676,17 +685,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-piadina.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/homeshortcss.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -836,13 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-dolci.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1026,13 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/page-menucibo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-piadina.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1062,6 +1046,27 @@
           <folding>
             <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-dolci.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-unici.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/page-menucibo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
         </state>
       </provider>
     </entry>
