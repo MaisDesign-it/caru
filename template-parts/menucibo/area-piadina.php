@@ -1,28 +1,38 @@
-<div id="piadina" class="piadina sezmenu">
-	<?php
-		// Get the ID of a given category
-		$category_id = get_cat_ID( 'piadine' );
+<?php
+	// Get the ID of a given category
+	$category_id = get_cat_ID( 'piadine' );
+	// Get the URL of this category
+	$category_link = get_category_link( $category_id );
+	$category = get_category($category_id);
+	/*echo '<ul>';
+	foreach ($category as $catitem){
+		echo '<li>'.$catitem.'</li>';
+	}
+	echo '</ul>';*/
+	$catname = $category->name;
+	$catslug = $category->slug;
+	$catdesc = $category->description;
 
-		// Get the URL of this category
-		$category_link = get_category_link( $category_id );
-	?>
-
+	/** @var Numero post nella categoria $count */
+	$count = $category->category_count;
+?>
+<div id="<?php echo $catslug;?>" class="<?php echo $catslug;?> sezmenu">
 	<!-- Print a link to this category -->
-	<h3 class="text-info text-center"><a style="color:#666" href="<?php echo esc_url( $category_link ); ?>" title="Piadine artigianali in provincia di Catania">PIADINE</a></h3>
-	<?php
-		/*
-		* TODO dare stile al titolo
-		*/;?>
-	<?php $catquery = new WP_Query( 'category_name=piadine&&posts_per_page=-1&&nopaging=true'); $et_npb = 0;$id = 39;$category = get_category($id);$count = $category->category_count;?>
+	<div class="row">
+		<div class="col"><h3 class="text-info text-center"><a style="color:#666;text-transform: uppercase;" href="<?php echo esc_url( $category_link ); ?>" title="Prova le nostre <?php echo $catslug;?>"><?php echo $catname;?></a></h3></div>
+		<div class="col"><h4><?php echo $catdesc;?></h4></div>
+	</div>
+	<hr class="style14">
+	<?php $catquery = new WP_Query( 'category_name='.$catslug.'&&posts_per_page=-1&&nopaging=true'); $et_npb = 0;?>
 	<?php if ($catquery->have_posts() ) : while($catquery->have_posts()) : $catquery->the_post();?>
 	<?php if (($et_npb === 0) || ($et_npb %2 == 0)){;?><div class="row"><?php };?>
-		<div class="col-6" <?php if (($et_npb != 0) && ($et_npb %2 != 0)){echo'style="padding-left:25px"';}else{echo'style="border-width: 3px 3px 3px 0;border-style: solid;-webkit-border-image:-webkit-gradient(linear, 0 0, 100% 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;-webkit-border-image:-webkit-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%;-moz-border-image:-moz-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%;-o-border-image:-o-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%;border-image:linear-gradient(to left, black, rgba(0, 0, 0, 0)) 1 100%;"';};?>>
+		<div <?php if (($et_npb != 0) && ($et_npb %2 != 0)){echo'class="col-6 leftpadding"';}else{echo'class="col-6 divverticale"';};?>>
 			<div class="row">
-			<div class="list__item list__item_ajax">
-				<a style="text-transform: uppercase;color:#555;" href="<?php echo esc_url( add_query_arg( 'access_method', 'iframe', get_permalink() ) );?>" class="iframe" title="<?php the_title();?>">
-				<?php the_title();?>
-				</a>
-			</div><!-- list__item list__item_ajax -->
+				<div class="list__item list__item_ajax">
+					<a style="text-transform: uppercase;color:#555;" href="<?php echo esc_url( add_query_arg( 'access_method', 'iframe', get_permalink() ) );?>" class="iframe" title="<?php the_title();?>">
+						<?php the_title();?>
+					</a>
+				</div><!-- list__item list__item_ajax -->
 			</div><!-- .row -->
 			<div class="row">
 				<?php $posttags = get_the_tags();
@@ -36,4 +46,4 @@
 		</div>
 		<?php ++$et_npb; if ( ($et_npb %2 == 0) ||  ($et_npb === $count)){echo '</div><hr class="style14">';};
 			endwhile;endif;?>
-	</div><!-- .sezmenu -->
+	</div>

@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e3937bef-6cb4-4be0-8346-aadcdf50478b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mainstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/area-crepe.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/area-crepe.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-parts/menucibo/area-piadina.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/area-piadina.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/page-menucibo.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/page-menucibo.php" afterDir="false" />
     </list>
     <ignored mask="*.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,23 +19,67 @@
   <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page-menucibo.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page-menucibo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template-parts/page-menucibo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            <state relative-caret-position="357">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="area-piadina.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="basichome2018.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basichome2018.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="716">
+              <caret line="91" selection-start-line="91" selection-end-line="91" selection-end-column="90" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="area-piadina.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-piadina.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="408">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainstyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/mainstyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="723">
+              <caret line="108" column="13" selection-start-line="108" selection-end-line="108" selection-end-column="13" />
+              <folding>
+                <element signature="e#123409#123609#2" expanded="true" />
+                <element signature="e#123817#123966#2" expanded="true" />
+                <element signature="e#124468#124614#2" expanded="true" />
+                <element signature="e#124915#125081#1" expanded="true" />
+                <element signature="e#135802#136045#2" expanded="true" />
+                <element signature="e#136912#137161#2" expanded="true" />
+                <element signature="e#163569#163759#2" expanded="true" />
+                <element signature="e#163805#163995#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="area-crepe.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-crepe.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="21" column="102" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="102" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,34 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="et2018.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/et2018.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="site-branding.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-parts/header/site-branding.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="969">
               <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="227" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homeshortcss.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/homeshortcss.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret column="20433" selection-start-column="20242" selection-end-column="20433" />
-              <folding>
-                <element signature="e#16608#16851#2" expanded="true" />
-                <element signature="e#18205#18395#2" expanded="true" />
-                <element signature="e#18441#18631#2" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -207,7 +231,6 @@
         <option value="$PROJECT_DIR$/template-parts/frontpage/frontpage-marketing.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/bun-area.php" />
-        <option value="$PROJECT_DIR$/template-parts/menucibo/area-crepe.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-dolci.php" />
         <option value="$PROJECT_DIR$/js/umodal.min.js" />
         <option value="$PROJECT_DIR$/single/single-cat-bun.php" />
@@ -221,7 +244,6 @@
         <option value="$PROJECT_DIR$/template-parts/single/single-cat-bun.php" />
         <option value="$PROJECT_DIR$/css/utility.css" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/post-iframe.php" />
-        <option value="$PROJECT_DIR$/template-parts/page-menucibo.php" />
         <option value="$PROJECT_DIR$/css/test/part1.css" />
         <option value="$PROJECT_DIR$/css/test/part2.css" />
         <option value="$PROJECT_DIR$/css/test/part3.css" />
@@ -230,14 +252,16 @@
         <option value="$PROJECT_DIR$/mobilehome.css" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/template-parts/header/site-branding.php" />
-        <option value="$PROJECT_DIR$/css/mainstyle.css" />
         <option value="$PROJECT_DIR$/css/mobilehome.css" />
         <option value="$PROJECT_DIR$/css/homeshortcss.css" />
         <option value="$PROJECT_DIR$/et2018.php" />
         <option value="$PROJECT_DIR$/basichome2018.php" />
         <option value="$PROJECT_DIR$/trovami.js" />
         <option value="$PROJECT_DIR$/template-parts/header/header-navbar.php" />
+        <option value="$PROJECT_DIR$/css/mainstyle.css" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-piadina.php" />
+        <option value="$PROJECT_DIR$/template-parts/menucibo/area-crepe.php" />
+        <option value="$PROJECT_DIR$/template-parts/page-menucibo.php" />
       </list>
     </option>
   </component>
@@ -278,6 +302,11 @@
             <path>
               <item name="caru" type="b2602c69:ProjectViewProjectNode" />
               <item name="caru" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="caru" type="b2602c69:ProjectViewProjectNode" />
@@ -487,7 +516,7 @@
       <workItem from="1524152498529" duration="15968000" />
       <workItem from="1524176687410" duration="1769000" />
       <workItem from="1524184248560" duration="4651000" />
-      <workItem from="1524239076459" duration="1938000" />
+      <workItem from="1524239076459" duration="9186000" />
     </task>
     <task id="LOCAL-00001" summary="Primo upload">
       <created>1524173623900</created>
@@ -517,20 +546,36 @@
       <option name="project" value="LOCAL" />
       <updated>1524189218139</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Aggiunto stile divisore piadine: &#10;border-width: 3px 3px 3px 0;&#10;    border-style: solid;&#10;    -webkit-border-image: &#10;      -webkit-gradient(linear, 0 0, 100% 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;&#10;    -webkit-border-image: &#10;      -webkit-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%;&#10;    -moz-border-image:&#10;      -moz-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%; &#10;    -o-border-image:&#10;      -o-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%;&#10;    border-image:&#10;      linear-gradient(to left, black, rgba(0, 0, 0, 0)) 1 100%;">
+      <created>1524244235569</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1524244235569</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252531000" />
+    <option name="totallyTimeSpent" value="259779000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5005208" side_tool="true" weight="0.33017877" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947917" weight="0.32912722" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5005208" side_tool="true" weight="0.32912722" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.49947917" visible="true" weight="0.33017877" />
+      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.49947917" weight="0.33017877" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32912722" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="10" />
@@ -538,6 +583,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21041666" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -547,7 +593,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
       <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32912722" />
     </layout>
   </component>
@@ -592,7 +637,8 @@
     <MESSAGE value="Secondo upload" />
     <MESSAGE value="Aggiunta prima versione del loop" />
     <MESSAGE value="Sistemato loop e divisore piadine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sistemato loop e divisore piadine" />
+    <MESSAGE value="Aggiunto stile divisore piadine: &#10;border-width: 3px 3px 3px 0;&#10;    border-style: solid;&#10;    -webkit-border-image: &#10;      -webkit-gradient(linear, 0 0, 100% 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;&#10;    -webkit-border-image: &#10;      -webkit-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%;&#10;    -moz-border-image:&#10;      -moz-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%; &#10;    -o-border-image:&#10;      -o-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%;&#10;    border-image:&#10;      linear-gradient(to left, black, rgba(0, 0, 0, 0)) 1 100%;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto stile divisore piadine: &#10;border-width: 3px 3px 3px 0;&#10;    border-style: solid;&#10;    -webkit-border-image: &#10;      -webkit-gradient(linear, 0 0, 100% 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;&#10;    -webkit-border-image: &#10;      -webkit-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%;&#10;    -moz-border-image:&#10;      -moz-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%; &#10;    -o-border-image:&#10;      -o-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%;&#10;    border-image:&#10;      linear-gradient(to left, black, rgba(0, 0, 0, 0)) 1 100%;" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\wamp64\www\wordpress</wordpressPath>
@@ -608,8 +654,8 @@
         <state relative-caret-position="51">
           <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -672,13 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="3663" selection-start-column="3658" selection-end-column="3663" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-crepe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -872,13 +911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mainstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4743">
-          <caret line="73" column="47" selection-start-line="73" selection-start-column="47" selection-end-line="73" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/mobilehome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -933,13 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basichome2018.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7410">
-          <caret line="14" column="3643" selection-start-line="14" selection-start-column="3643" selection-end-line="14" selection-end-column="3643" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-bun.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -954,21 +979,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/page-menucibo.php">
+    <entry file="file://$PROJECT_DIR$/css/mainstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="723">
+          <caret line="108" column="13" selection-start-line="108" selection-end-line="108" selection-end-column="13" />
+          <folding>
+            <element signature="e#123409#123609#2" expanded="true" />
+            <element signature="e#123817#123966#2" expanded="true" />
+            <element signature="e#124468#124614#2" expanded="true" />
+            <element signature="e#124915#125081#1" expanded="true" />
+            <element signature="e#135802#136045#2" expanded="true" />
+            <element signature="e#136912#137161#2" expanded="true" />
+            <element signature="e#163569#163759#2" expanded="true" />
+            <element signature="e#163805#163995#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-piadina.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="408">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-crepe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="21" column="102" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="102" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basichome2018.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="91" selection-start-line="91" selection-end-line="91" selection-end-column="90" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/page-menucibo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
         </state>
       </provider>
     </entry>

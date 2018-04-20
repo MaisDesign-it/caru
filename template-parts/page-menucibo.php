@@ -19,6 +19,7 @@
 
 	<?php /* <script async src="<?php echo get_stylesheet_directory_uri(); ?>/js/lazyload.js"></script> */ ;?>
 	<script async src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.colorbox-min.js"></script>
+	<script defer src="<?php echo get_stylesheet_directory_uri(); ?>/js/lazyload.js"></script>
 	<script>window.addEventListener("load", function (event) {lazyload();});</script>
 	<script>
 	    $(document).ready(function(){
