@@ -19,7 +19,7 @@
 <div id="<?php echo $catslug;?>" class="<?php echo $catslug;?> sezmenu">
 	<!-- Print a link to this category -->
 	<div class="row">
-		<div class="col"><h3 class="text-info text-center"><a style="color:#666;text-transform: uppercase;" href="<?php echo esc_url( $category_link ); ?>" title="Prova le nostre <?php echo $catslug;?>"><?php echo $catname;?></a></h3></div>
+		<div class="col"><h3 class="text-info text-center"><a style="color:#666;text-transform: uppercase;" data-toggle="tooltip" data-placement="top" href="<?php echo esc_url( $category_link ); ?>" title="Prova le nostre <?php echo $catslug;?>"><?php echo $catname;?></a></h3></div>
 		<div class="col"><h4><?php echo $catdesc;?></h4></div>
 	</div>
 	<hr class="style14">
