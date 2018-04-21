@@ -425,7 +425,7 @@ function etimue2018_scripts() {
 		wp_enqueue_style('carousel-homepage',get_theme_file_uri('/css/carousel-1.css'));
 		wp_enqueue_style( 'etimue2018-style', get_stylesheet_uri() );
 		wp_enqueue_style( 'carousel-homepage', get_theme_file_uri( '/css/bootstrap-grid.min.css' ) );
-	}elseif ( is_page_template( 'taplist.php' ) ) {
+	}elseif ( is_page_template( 'page-menucibo.php' ) ) {
 		wp_enqueue_style( 'carousel-homepage', get_theme_file_uri( '/css/specifici/page-menucibo.css' ) );
 	}else{
 		wp_enqueue_style( 'carousel-homepage', get_theme_file_uri( '/css/mainstyle.css' ) );
