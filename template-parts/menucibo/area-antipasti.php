@@ -1,6 +1,6 @@
 <?php
 	// Get the ID of a given category
-	$category_id = get_cat_ID( 'antipasti' );
+	$category_id = get_cat_ID( 'Antipasti' );
 	// Get the URL of this category
 	$category_link = get_category_link( $category_id );
 	$category = get_category($category_id);

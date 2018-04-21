@@ -18,7 +18,9 @@
 	<hr class="featurette-divider">
 	<?php get_template_part('template-parts/menucibo/area','crepe');?>
 	<hr class="featurette-divider">
-	<?php get_template_part('template-parts/menucibo/area','unici');?>
+	<?php get_template_part('template-parts/menucibo/area','piattiunici');?>
+	<hr class="featurette-divider">
+	<?php get_template_part('template-parts/menucibo/area','insalate');?>
 	<hr class="featurette-divider">
 	<?php get_template_part('template-parts/menucibo/area','dolci');?>
 	<hr class="featurette-divider">
