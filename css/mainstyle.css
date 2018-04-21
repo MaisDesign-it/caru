@@ -103,3 +103,8 @@ Personalizzazioni 19-04-18
 header.marginale {
 	margin-bottom: 1em;
 }
+/*
+* Pagina menu
+ */
+.divverticale{border-width: 3px 3px 3px 0;border-style: solid;-webkit-border-image:-webkit-gradient(linear, 0 0, 100% 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;-webkit-border-image:-webkit-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%;-moz-border-image:-moz-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%;-o-border-image:-o-linear-gradient(left, black, rgba(0, 0, 0, 0)) 1 100%;border-image:linear-gradient(to left, black, rgba(0, 0, 0, 0)) 1 100%;}
+.leftpadding{padding-left:25px}
