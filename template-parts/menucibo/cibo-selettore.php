@@ -3,7 +3,7 @@
 	<!-- Three columns of text below the carousel -->
 	<div class="row">
 		<div class="col">
-			<img class="lazyload rounded-circle"
+			<img class="lazyload rounded-circle" style="margin-left: 25%"
 			     src="<?php echo get_stylesheet_directory_uri(); ?>/img/bn/mobile/tagliere.png"
 			     data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/mobile/tagliere.png"
 			     height="128" width="128"
@@ -14,7 +14,7 @@
 			<p><a class="btn btn-outline-info btn-block" href="#tagliere" role="button">Scopri di più &raquo;</a></p>
 		</div><!-- /.col -->
 		<div class="col">
-			<img class="lazyload rounded-circle"
+			<img class="lazyload rounded-circle" style="margin-left: 25%"
 			     src="<?php echo get_stylesheet_directory_uri(); ?>/img/bn/mobile/antipasti.png"
 			     data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/mobile/antipasti.png"
 			     height="128" width="128"
@@ -25,7 +25,7 @@
 			<p><a class="btn btn-outline-info btn-block" href="#antipasti" role="button">Scopri di più &raquo;</a></p>
 		</div><!-- /.col -->
 		<div class="col">
-			<img class="lazyload rounded-circle"
+			<img class="lazyload rounded-circle" style="margin-left: 25%"
 			     src="<?php echo get_stylesheet_directory_uri(); ?>/img/bn/mobile/bun.png"
 			     data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/mobile/bun.png"
 			     height="128" width="128"
@@ -35,7 +35,7 @@
 			<p><a class="btn btn-outline-info btn-block" href="#bun" role="button">Scopri di più &raquo;</a></p>
 		</div><!-- /.col -->
 		<div class="col">
-			<img class="lazyload rounded-circle"
+			<img class="lazyload rounded-circle" style="margin-left: 25%"
 			     src="<?php echo get_stylesheet_directory_uri(); ?>/img/bn/mobile/piadina.png"
 			     data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/mobile/piadina.png"
 			     height="128" width="128"
@@ -46,7 +46,7 @@
 			<p><a class="btn btn-outline-info btn-block" href="#piadina" role="button">Scopri di più &raquo;</a></p>
 		</div><!-- /.col -->
 		<div class="col">
-			<img class="lazyload rounded-circle"
+			<img class="lazyload rounded-circle" style="margin-left: 25%"
 			     src="<?php echo get_stylesheet_directory_uri(); ?>/img/bn/mobile/crepe.png"
 			     data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/mobile/crepe.png"
 			     height="128" width="128"
@@ -57,7 +57,7 @@
 			<p><a class="btn btn-outline-info btn-block" href="#crepe" role="button">Scopri di più &raquo;</a></p>
 		</div><!-- /.col -->
 		<div class="col">
-			<img class="lazyload rounded-circle"
+			<img class="lazyload rounded-circle" style="margin-left: 25%"
 			     src="<?php echo get_stylesheet_directory_uri(); ?>/img/bn/mobile/dolci.png"
 			     data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/mobile/dolci.png"
 			     height="128" width="128"
