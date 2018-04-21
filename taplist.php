@@ -1,13 +1,4 @@
-<?php
-/*
-Template Name: TapList
-*/
-?>
-<head>
-	<?php wp_head();?>
-</head>
-<body class="container">
-<header><?php get_template_part('template-parts/header/header','navbar');?></header>
+<?php get_header();?>
 <?php if ( wp_is_mobile() ) {echo '<hr class="featurette-divider">';}?>
 <?php get_template_part('template-parts/taplist/spine','loop');?>
 <?php get_template_part('template-parts/footer/site','info');?>

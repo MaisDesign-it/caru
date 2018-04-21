@@ -422,9 +422,16 @@ function etimue2018_scripts() {
 		wp_enqueue_style( 'carousel-homepage', get_theme_file_uri( '/css/carousel-1.css' ) );
 		wp_enqueue_style( 'grid', get_theme_file_uri( '/css/bootstrap-grid.min.css' ) );
 	}elseif ( is_page_template( 'taplist.php' ) ) {
-		wp_enqueue_style( 'taplist', get_theme_file_uri( '/css/specifici/taplist.css' ) );
+		//wp_enqueue_style( 'taplist', get_theme_file_uri( '/css/specifici/taplist.css' ) );
+		wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css' ) );
 	}elseif ( is_page_template( 'template-parts/page-menucibo.php' ) ) {
 		wp_enqueue_style( 'carousel-homepage', get_theme_file_uri( '/css/specifici/page-menucibo.css' ) );
+		//wp_enqueue_style( 'menucibo-bt', get_theme_file_uri( '/css/bootstrap.css' ) );
+		wp_enqueue_script( 'colorbox', get_theme_file_uri( '/js/jquery.colorbox-min.js' ), 'jquery', '1.0', true );
+		wp_enqueue_script( 'et-popper', "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js",'jquery','1.0',true);
+		wp_enqueue_script( 'et-lazy', get_theme_file_uri( '/js/lazyload.js' ), 'jquery', '1.0', true );
+		wp_enqueue_script( 'et-bootstrap', "//maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js",'jquery','1.0',true);
+		wp_enqueue_script( 'et-allscript', get_theme_file_uri( '/js/page-menucibo.js' ), 'jquery', '1.0', true );
 	}else {
 		wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css' ) );
 		wp_enqueue_style( 'not-not-homepage', get_theme_file_uri( '/css/bootstrap-grid.min.css' ) );

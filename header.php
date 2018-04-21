@@ -21,7 +21,9 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <?php wp_head(); ?>
 </head>
+<?php if (!is_page_template('taplist.php')){;?>
 <body <?php body_class(); ?>>
+<?php }else{echo '<body class="container">';};?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'etimue2018' ); ?></a>
 
@@ -38,7 +40,7 @@
 		<?php endif; ?>
 
 	</header><!-- #masthead -->
-
+	<?php if (!is_page_template('taplist.php')){;?>
 	<?php
 
 	/*
@@ -54,6 +56,4 @@
 
 	<div class="site-content-contain">
 		<div id="content" class="site-content">
-            <!-- Questo è il codice per includere lo slideshow -->
-            <?php /* require_once ( ET_SLIDER_PATH . 'etsliderinclude.php') */;?>
-            <!-- Fine del codice per includere lo slideshow -->
+			<?php };?>
