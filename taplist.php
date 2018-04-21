@@ -4,7 +4,6 @@ Template Name: TapList
 */
 ?>
 <head>
-	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/css/mainstyle.css';?>" />
 	<?php wp_head();?>
 </head>
 <body class="container">
@@ -12,4 +11,6 @@ Template Name: TapList
 <?php if ( wp_is_mobile() ) {echo '<hr class="featurette-divider">';}?>
 <?php get_template_part('template-parts/taplist/spine','loop');?>
 <?php get_template_part('template-parts/footer/site','info');?>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </body>
