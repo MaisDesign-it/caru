@@ -1,6 +1,8 @@
 <?php
 	/*
-	Template Name: Menu Cibo
+	* Template Name: Menu Cibo
+	* TODO Aggiungere pagine iFrame per piadine, crepe, piatti unici e dolci.
+	 * TODO Allegerire pagina da CSS e JS
 	*/
 	get_header();?>
 	<div class="container">
