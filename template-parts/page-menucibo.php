@@ -8,6 +8,8 @@
 	<div class="container">
 	<?php get_template_part('template-parts/menucibo/cibo','selettore');?>
 	<hr class="featurette-divider">
+	<?php get_template_part('template-parts/menucibo/area','antipasti');?>
+	<hr class="featurette-divider">
 	<?php get_template_part('template-parts/menucibo/area','bun');?>
 	<hr class="featurette-divider">
 	<?php get_template_part('template-parts/menucibo/area','piadina');?>
