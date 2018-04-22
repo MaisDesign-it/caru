@@ -45,6 +45,7 @@
 			<p>Le nostre piadine realizzate a mano.</p>
 			<p><a class="btn btn-outline-info btn-block" href="#piadina" role="button">Scopri di più &raquo;</a></p>
 		</div><!-- /.col -->
+	</div><div class="row">
 		<div class="col">
 			<img class="lazyload rounded-circle" style="margin-left: 25%"
 			     src="<?php echo get_stylesheet_directory_uri(); ?>/img/bn/mobile/crepe.png"
@@ -128,6 +129,8 @@
 			<p>Le nostre piadine realizzate a mano.</p>
 			<p><a class="btn btn-outline-info btn-block" href="#piadina" role="button">Scopri di più &raquo;</a></p>
 		</div><!-- /.col -->
+
+	</div><div class="row">
 		<div class="col">
 			<img class="lazyload rounded-circle"
 			     src="<?php echo get_stylesheet_directory_uri(); ?>/img/bn/crepe.png"
