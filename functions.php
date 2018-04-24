@@ -422,13 +422,13 @@
 		if ( is_page_template( 'et2018.php' ) ) {
 			wp_enqueue_style( 'carousel-homepage', get_theme_file_uri( '/css/carousel-1.css' ) );
 			wp_enqueue_style( 'grid', get_theme_file_uri( '/css/bootstrap-grid.min.css' ) );
-			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js",'jquery','1.0',true);
-			wp_enqueue_script('iubendabasic',get_theme_file_uri( '/js/iubenda.js'),'jquery','1.0',true);
+			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js",'iubendapersonal','1.0',true);
+			wp_enqueue_script('iubendapersonal',get_theme_file_uri( '/js/iubenda.js'),'jquery','1.0',true);
 		}elseif ( is_page_template( 'taplist.php' ) ) {
 			//wp_enqueue_style( 'taplist', get_theme_file_uri( '/css/specifici/taplist.css' ) );
 			wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css' ) );
-			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js",'jquery','1.0',true);
-			wp_enqueue_script('iubendabasic',get_theme_file_uri( '/js/iubenda.js'),'jquery','1.0',true);
+			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js",'iubendapersonal','1.0',true);
+			wp_enqueue_script('iubendapersonal',get_theme_file_uri( '/js/iubenda.js'),'jquery','1.0',true);
 		}elseif ( is_page_template( 'template-parts/page-menucibo.php' ) ) {
 			wp_enqueue_style( 'carousel-homepage', get_theme_file_uri( '/css/specifici/page-menucibo-actual.css' ) );
 			//wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css' ) );
@@ -438,13 +438,13 @@
 			wp_enqueue_script( 'et-lazy', get_theme_file_uri( '/js/lazyload.js' ), 'jquery', '1.0', true );
 			wp_enqueue_script( 'et-bootstrap', "//maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js",'jquery','1.0',true);
 			wp_enqueue_script( 'et-allscript', get_theme_file_uri( '/js/page-menucibo.js' ), 'jquery', '1.0', true );
-			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js",'jquery','1.0',true);
-			wp_enqueue_script('iubendabasic',get_theme_file_uri( '/js/iubenda.js'),'jquery','1.0',true);
+			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js",'iubendapersonal','1.0',true);
+			wp_enqueue_script('iubendapersonal',get_theme_file_uri( '/js/iubenda.js'),'jquery','1.0',true);
 		}else {
 			wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css' ) );
 			wp_enqueue_style( 'not-not-homepage', get_theme_file_uri( '/css/bootstrap-grid.min.css' ) );
-			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js",'jquery','1.0',true);
-			wp_enqueue_script('iubendabasic',get_theme_file_uri( '/js/iubenda.js'),'jquery','1.0',true);
+			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js",'iubendapersonal','1.0',true);
+			wp_enqueue_script('iubendapersonal',get_theme_file_uri( '/js/iubenda.js'),'jquery','1.0',true);
 		};
 
 		// Load the dark colorscheme.

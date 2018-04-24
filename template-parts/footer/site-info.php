@@ -14,6 +14,7 @@
 	<p class="float-right"><a href="#">Torna su</a></p>
 	<p>&copy; 2018 Etimu&egrave; Pub &middot; <a href="https://www.iubenda.com/privacy-policy/907140">Privacy</a> &middot; <a href="https://www.iubenda.com/privacy-policy/907140/cookie-policy">Cookie Law</a></p>
 </footer>
+<?php /*
 <div class="site-info">
 	<script type="text/javascript">
         var _iub = _iub || [];
@@ -25,3 +26,4 @@
 	</script>
 	<script async type="text/javascript" src="//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js" charset="UTF-8" async></script>
 </div><!-- .site-info -->
+ */ ;?>
