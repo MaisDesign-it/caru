@@ -8,7 +8,7 @@
 					<?php if ($mul !=10){echo'<p>0'.$mul;}else{echo '<p>'.$mul;};?>)</p>
 				</div><!-- .numerospina -->
 				<?php get_template_part('template-parts/taplist/via','piena');
-				endwhile;
+				endwhile;wp_reset_postdata();
 				else:?>
 				<div class="row"><!-- Inizio row birrificio -->
 					<div class="col numerospina"><?php if ($mul !=10){echo'0'.$mul;}else{echo $mul;};?>)</div><!-- .numerospina -->

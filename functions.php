@@ -647,7 +647,7 @@
 	function etdispo_quickedit_fields( $column_name, $post_type, $post_id ) {
 		if ( 'et2018-quantita_birra' != $column_name )
 			return;
-
+// TODO sistemare colonna disponibilitàs
 		$etdispo_regi = get_post_meta( $post_id, 'et2018-quantita_birra', true );
 		?>
 		<fieldset class="inline-edit-col-right">
@@ -722,198 +722,182 @@
 	/**
 	 * MetaBox personalizzati
 	 */
-
-	function et_2018_get_meta_box( $meta_boxes ) {
-		$prefix = 'et2018-';
-
-		$meta_boxes[] = array(
-			'id' => 'beerdesc',
-			'title' => esc_html__( 'Scheda birra', 'et-2018-template' ),
-			'post_types' => array( 'post' ),
-			'context' => 'form_top',
-			'priority' => 'high',
-			'autosave' => true,
-			'fields' => array( /* Gruppo 1 */
-				array (
-					'id' => 'partebirra',
-					'type' => 'group',
-					'name' => 'Specifiche Birra',
-					'fields' =>       array (
-						array(
-							'id' => $prefix . 'nome_birra',
-							'type' => 'text',
-							'name' => esc_html__( 'Nome Birra', 'et-2018-template' ),
-							'desc' => esc_html__( 'Nome Birra', 'et-2018-template' ),
-							'placeholder' => esc_html__( 'Iniziale maiuscola', 'et-2018-template' ),
-						),
-						array(
-							'id' => $prefix . 'nome_birrificio',
-							'type' => 'text',
-							'name' => esc_html__( 'Birrificio', 'et-2018-template' ),
-							'desc' => esc_html__( 'Nome birrificio con iniziale maiuscola', 'et-2018-template' ),
-							'placeholder' => esc_html__( 'Nome Birrificio', 'et-2018-template' ),
-						),
-						array(
-							'id' => $prefix . 'gradazione',
-							'type' => 'number',
-							'step' => 'any',
-							'name' => esc_html__( 'Gradazione', 'et-2018-template' ),
-							'desc' => esc_html__( 'Gradazione senza segni! (no % e nemmeno °)', 'et-2018-template' ),
-							'placeholder' => esc_html__( 'Gradazione', 'et-2018-template' ),
-						),
-						array(
-							'id' => $prefix . 'stile_birra',
-							'type' => 'text',
-							'name' => esc_html__( 'Stile', 'et-2018-template' ),
-							'desc' => esc_html__( 'Stile della birra', 'et-2018-template' ),
-							'placeholder' => esc_html__( 'Stile della birra', 'et-2018-template' ),
-						),
-						array(
-							'id' => $prefix . 'gusto_prevalente',
-							'name' => esc_html__( 'Gusto Prevalente', 'et-2018-template' ),
-							'type' => 'radio',
-							'desc' => esc_html__( 'Macro descrittore', 'et-2018-template' ),
-							'placeholder' => '',
-							'options' => array(
-								'amaro' => 'Amaro',
-								'dolce' => 'Dolce',
-								'acido' => 'Acido',
-								'tostato' => 'Tostato',
-							),
-							'inline' => true,
-						),
-						array(
-							'id' => $prefix . 'gusto_descrittori',
-							'name' => esc_html__( 'Descrittori birra', 'et-2018-template' ),
-							'type' => 'checkbox_list',
-							'desc' => esc_html__( 'La lista dei descrittori presa da qui: https://www.pintamedicea.com/birra/2017/la-ruota-dei-sapori-di-meilgaard/', 'et-2018-template' ),
-							'options' => array(
-								'fruttato' => 'Fruttato',
-								'floreale' => 'Floreale',
-								'luppolato' => 'Luppolato',
-								'resinoso' => 'Resinoso',
-								'alcolico' => 'Alcolico/Solvente',
-								'malto' => 'Malto',
-								'caramello' => 'Caramelllo',
-								'tostato' => 'Tostato/Bruciato',
-								'acido' => 'Acido',
-								'dolce' => 'Dolce',
-								'amaro' => 'Amaro',
-								'astringente' => 'Astringente',
-							),
-							'class' => 'listadescrittori',
-							'inline' => true,
-						),
-						array(
-							'id' => $prefix . 'prezzo_birra',
-							'type' => 'number',
-							'name' => esc_html__( 'Prezzo', 'et-2018-template' ),
-							'desc' => esc_html__( 'Costo al pubblico della birra senza simboli!', 'et-2018-template' ),
-							'placeholder' => esc_html__( 'Costo', 'et-2018-template' ),
-						),
-						array(
-							'id' => $prefix . 'disponibilita',
-							'name' => esc_html__( 'Disponibilità', 'et-2018-template' ),
-							'type' => 'checkbox',
-							'desc' => esc_html__( 'Disponibile o no?', 'et-2018-template' ),
-							'std' => true,
-						),
-						array(
-							'id' => $prefix . 'formato_birra',
-							'name' => esc_html__( 'Formati disponibili', 'et-2018-template' ),
-							'type' => 'checkbox_list',
-							'desc' => esc_html__( 'Formati disponibili', 'et-2018-template' ),
-							'options' => array(
-								'33cl' => '33cl',
-								'375cl' => '37.5cl',
-								'50cl' => '50cl',
-								'75cl' => '75cl',
-								'magnum' => 'Magnum',
-								'fusto' => 'fusto',
-							),
-							'class' => 'formatidisponibili',
-							'inline' => true,
-						),
-						array(
-							'id' => $prefix . 'quantita_birra',
-							'type' => 'number',
-							'name' => esc_html__( 'Quantità disponibile', 'et-2018-template' ),
-							'desc' => esc_html__( 'Quante ne hai?', 'et-2018-template' ),
-						),
-						array(
-							'id' => $prefix . 'annata_birra',
-							'type' => 'number',
-							'name' => esc_html__( 'Annata', 'et-2018-template' ),
-							'desc' => esc_html__( 'Di che anno è la birra?', 'et-2018-template' ),
-							'placeholder' => esc_html__( 'Annata', 'et-2018-template' ),
-							'clone' => true,
-							'add_button' => esc_html__( 'Anni diversi?', 'et-2018-template' ),
-						),
-					),
-				),/* fine gruppo 1 */
+add_filter( 'rwmb_meta_boxes', function ( $meta_boxes ) {
+	$prefix = 'et2018-';
+	$meta_boxes[] = array(
+		'id'         => 'configuratore-spine',
+		'title'      => 'Configuratore post',
+		'post_types' => 'post',
+		'context'    => 'normal',
+		'fields'     => array(
+			array(
+				'id'          =>'selettore_categoria',
+				'type'        => 'taxonomy',
+				'name'        => 'Selezione categoria',
+				'desc'        => 'Scegli in quale categoria salvare il post',
+				'placeholder' => 'Scegli la categoria',
+				'taxonomy'    => 'category',
+				'field_type'  => 'checkbox_tree',
 			),
-		);
-
-		return $meta_boxes;
-	}
-	add_filter( 'rwmb_meta_boxes', 'et_2018_get_meta_box' );
-	/*
-	 * Seconda parte MetaBox
-	 */
-	function et_2018_get_meta_box_two( $meta_boxes_two ) {
-		$prefix = 'et2018-';
-
-		$prefix = 'et2018-';
-		$meta_boxes_two[] = array(
-			'id' => 'config_panini',
-			'title' => esc_html__( 'Configuratore panini', 'et-2018-template' ),
-			'post_types' => array( 'post' ),
-			'context' => 'form_top',
-			'priority' => 'high',
-			'autosave' => true,
-			'attrs' => array(),
-			'fields' => array(
-				array(
-					'id' => 'configura_panini',
-					'type' => 'heading',
-					'desc' => esc_html__( 'Da qui puoi aggiungere info importanti alle pagine del menu', 'et-2018-template' ),
-					'name' => esc_html__( 'Configuratore Panini', 'et-2018-template' ),
-					'class' => 'headcongpanini',
-				),
-				array(
-					'id' => $prefix . 'img_low_res',
-					'type' => 'image_advanced',
-					'name' => esc_html__( 'Immagine a bassa risoluzione', 'et-2018-template' ),
-					'desc' => esc_html__( "Inserisci l'immagine a bassa risoluzione", 'et-2018-template' ),
-                    'max_file_uploads' => 1,
+			array(
+				'id'      => 'gruppo_birra',
+				'type'    => 'group',
+				'name'    => 'Specifiche birre',
+				'visible' => array(
+					'when'     => array(
+						array( 'selettore_categoria', 'contains', '2' ),
+						array( 'selettore_categoria', 'contains', '28' ),
 					),
-                array(
-                    'id' => $prefix . 'img_high_res',
-                    'type' => 'image_advanced',
-                    'name' => esc_html__( 'Immagine a alta risoluzione', 'et-2018-template' ),
-                    'desc' => esc_html__( "Inserisci l'immagine a bassa risoluzione", 'et-2018-template' ),
-                    'max_file_uploads' => 1,
-                    ),
-                array(
-	                'id' => $prefix . 'youtube_link',
-	                'type' => 'url',
-	                'name' => esc_html__( 'Link YouTube', 'et-2018-template' ),
-	                'desc' => esc_html__( 'Inserisci il link al video YouTube', 'et-2018-template' ),
-	                'clone' => false,
-                    ),
-                array(
-                	'id' => $prefix . 'descrizione_panino',
-	                'type' => 'textarea',
-	                'name' => esc_html__( 'Descrizione panino', 'et-2018-template' ),
-	                'desc' => esc_html__( 'Inserisci la descrizione del panino, meglio se simpatica', 'et-2018-template' ),
-	                'std' => 'Spiega i giochi di parole nella pagina del menu',
-	                'clone' => false,
-                    ),
-                ), /* fields */
-			);/* $meta_boxes_two */
-		return $meta_boxes_two;
-	}
-	add_filter( 'rwmb_meta_boxes', 'et_2018_get_meta_box_two' );
+					'relation' => 'or',
+				),
+				'fields'  => array(
+					array(
+						'id'          => $prefix.'nome_birra',
+						'type'        => 'text',
+						'name'        => 'Nome Birra',
+						'desc'        => 'Il nome della birra',
+						'placeholder' => 'Nome birra',
+					),
+					array(
+						'id'          => $prefix.'nome_birrificio',
+						'type'        => 'text',
+						'name'        => 'Nome birrificio',
+						'desc'        => "Inserire il nome del birrificio con l'iniziale maiuscola",
+						'placeholder' => 'Nome birrificio',
+					),
+					array(
+						'id'   => $prefix.'gradazione',
+						'type' => 'number',
+						'name' => 'Gradazione birra',
+						'desc' => 'Inserire la gradazione senza segni (NO: % e nemmeno: °)',
+						'step' => '0.1',
+					),
+					array(
+						'id'   => $prefix.'stile_birra',
+						'type' => 'text',
+						'name' => 'Stile birra',
+						'desc' => 'Inserire lo stile della birra',
+					),
+					array(
+						'id'     => $prefix.'gusto_prevalente',
+						'name'   => 'Gusto prevalente',
+						'type'   => 'radio',
+						'desc'   => 'Gusto prevalente della birra',
+						'options' => array(
+							'amaro' => 'Amaro',
+							'dolce' => 'Dolce',
+							'acido' => 'Acido',
+							'tostato' => 'Tostato',
+						),
+						'inline' => true,
+					),
+					array(
+						'id'      => $prefix.'gusto_descrittori',
+						'name'    => 'Scegli i descrittori della birra',
+						'type'    => 'checkbox_list',
+						'desc'    => 'La lista dei descrittori presa da qui: https://www.pintamedicea.com/birra/2017/la-ruota-dei-sapori-di-meilgaard/',
+						'options' => array(
+							'fruttato'    => 'Fruttato',
+							'floreale'    => 'Floreale',
+							'luppolato'   => 'Luppolato',
+							'resinoso'    => 'Resinoso',
+							'alcolico'    => 'Alcolico/Solvente',
+							'malto'       => 'Malto',
+							'caramello'   => 'Caramello',
+							'tostato'     => 'Tostato/Bruciato',
+							'acido'       => 'Acido',
+							'dolce'       => 'Dolce',
+							'amaro'       => 'Amaro',
+							'astringente' => 'Astringente',
+						),
+						'inline'  => 1,
+					),
+					array(
+						'id'   => $prefix.'prezzo_birra',
+						'type' => 'text',
+						'name' => 'Costo birra',
+						'desc' => 'A quanto vendiamo quella birra? Senza simboli',
+						'clone'      => 1,
+						'sort_clone' => true,
+						'step' => '0.1',
+					),
+					array(
+						'id'   => $prefix.'disponibilita',
+						'name' => 'Disponibilità',
+						'type' => 'checkbox',
+						'desc' => 'Disponibile o no?',
+						'std'  => 1,
+					),
+					array(
+						'id'      => $prefix.'formato_birra',
+						'name'    => 'Formati disponibili',
+						'type'    => 'checkbox_list',
+						'desc'    => 'Che formati sono disponibili?',
+						'options' => array(
+							'33cl'   => '33cl',
+							'375cl'  => '37.5cl',
+							'50cl'   => '50cl',
+							'75cl'   => '75cl',
+							'magnum' => 'Magnum',
+							'bgb'    => 'BGB',
+							'fusto'  => 'Fusto',
+						),
+						'inline'  => 1,
+					),
+					array(
+						'id'          => $prefix.'quantita_birra',
+						'type'        => 'text',
+						'name'        => 'Quantità birra',
+						'desc'        => 'Quante ne hai in magazzino o cella?',
+						'placeholder' => 'Quante ne hai?',
+					),
+					array(
+						'id'         => $prefix.'annata_birra',
+						'type'       => 'number',
+						'name'       => 'Annata birra',
+						'desc'       => 'Di che annate sono le birre che hai?',
+						'clone'      => 1,
+						'sort_clone' => true,
+					),
+				),
+			),
+			array(
+				'id'      => 'gruppo_panini',
+				'type'    => 'group',
+				'name'    => 'Specifiche panini',
+				'visible' => array(
+					'when'     => array(
+						array( 'selettore_categoria', 'contains', '36' ),
+						//array( 'selettore_categoria', 'contains', '5' ),
+					),
+					'relation' => 'or',
+				),
+				'fields'  => array(
+					array(
+						'id'   => $prefix.'link_youtube',
+						'type' => 'oembed',
+						'name' => 'Link YouTube',
+						'desc' => 'Link alla canzone',
+					),
+					array(
+						'id'   => $prefix.'img_low_res',
+						'type' => 'single_image',
+						'name' => 'Immagine a bassa qualità',
+						'desc' => 'Carica qui l\'immagine a bassa qualità',
+					),
+					array(
+						'id'   => $prefix.'img_high_res',
+						'type' => 'single_image',
+						'name' => 'Immagine alta qualità',
+						'desc' => 'Carica qui l\'immagine ad alta qualità',
+					),
+				),
+			),
+		),
+	);
+
+	return $meta_boxes;
+} );
 
 	/*
 	 * Template per i post singoli
