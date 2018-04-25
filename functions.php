@@ -875,7 +875,7 @@ add_filter( 'rwmb_meta_boxes', function ( $meta_boxes ) {
 				'fields'  => array(
 					array(
 						'id'   => $prefix.'link_youtube',
-						'type' => 'oembed',
+						'type' => 'text',
 						'name' => 'Link YouTube',
 						'desc' => 'Link alla canzone',
 					),
@@ -891,6 +891,48 @@ add_filter( 'rwmb_meta_boxes', function ( $meta_boxes ) {
 						'name' => 'Immagine alta qualità',
 						'desc' => 'Carica qui l\'immagine ad alta qualità',
 					),
+					array(
+						'id' => $prefix . 'descrizione',
+						'type' => 'textarea',
+						'name' => esc_html__( 'Descrizione panino', 'et-2018-template' ),
+					),
+					array(
+						'id'   => $prefix.'versionemini',
+						'name' => 'Versione mini',
+						'type' => 'checkbox',
+						'desc' => 'Disponibile o no?',
+						'std'  => 0,
+					),
+					/*
+					 * TODO ragionare se è una follia aggiungere gli ingredienti così
+					 *array(
+						'name'    => 'Ingredienti',
+						'id'      => $prefix.'field_id',
+						'type'    => 'autocomplete',
+						// Options of autocomplete, in format 'value' => 'Label'
+						'options' => array(
+							'hamburger 250g'             => 'Hamburger 250g',
+							'bacon'                      => 'Bacon',
+							'cipolla caramellata'        => 'Cipolla caramellata',
+							'scamorza affumicata'        => 'Scamorza affumicata',
+							'lattuga'                    => 'Lattuga',
+							'pomodoro'                   => 'Pomodoro',
+							'salsa BBQ'                  => 'Salsa BBQ',
+							'burrata'                    => 'Burrata',
+							'radicchio'                  => 'Radicchio',
+							'senape'                     => 'Senape',
+							'pepato'                     => 'Pepato',
+							'pesto alla genovese'        => 'Pesto alla genovese',
+							'noccioline'                 => 'Noccioline',
+							'gherigli di noci'           => 'Gherigli di noci',
+							'rucola'                     => 'Rucola',
+							'salsiccia 200g'             => 'Salsiccia 200g',
+							'pomodori secchi'            => 'Pomodori secchi',
+							'cavolo nero'                => 'Cavolo nero',
+							'maionese'                   => 'Radicchio',
+						),
+					)
+					*/
 				),
 			),
 		),

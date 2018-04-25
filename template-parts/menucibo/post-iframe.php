@@ -14,17 +14,22 @@
 	/* Start the Loop */
 	while ( have_posts() ) : the_post();?>
 		<div class="row">
-			<div class="col-4 offset-3">
+			<div class="col">
 				<?php
-					$imalow = rwmb_meta( 'et2018-img_low_res', array( 'size' => 'etimue2018-single-bun' ) );
-					foreach ( $imalow as $imalows ) {
+					$panini = get_post_meta($post->ID, 'gruppo_panini', true);
+					if (isset($panini['et2018-img_low_res'])){
+						$imglow = $panini['et2018-img_low_res'];
 					}
-					$imahigh = rwmb_meta( 'et2018-img_high_res', array( 'size' => 'etimue2018-single-bun' ) );
-					foreach ( $imahigh as $imahighs ) {
+					if (isset($panini['et2018-img_high_res'])){
+						$imghigh = $panini['et2018-img_high_res'];
 					}
 				;?>
-				<img class="lazyload rounded-circle col-sm-12" src="<?php echo $imalows['url']; ?>" data-src="<?php echo $imahighs['url']; ?>" height="512" width="512" alt="Solo birra di qualit&agrave; ad Acireale" />
+				<?php $imglinkl = wp_get_attachment_url( $imglow );
+					$imglinkh = wp_get_attachment_url( $imghigh );?>
+				<img class="lazyload rounded-circle col-sm-12" src="<?php echo $imglinkl; ?>" data-src="<?php echo $imglinkh; ?>" height="512" width="512" alt="Solo birra di qualit&agrave; ad Acireale" />
 			</div>
+		</div>
+		<div class="row">
 			<hr class="col-12 style14">
 			<div class="ingredienti col-10 offset-1">
 				<p class="text-center text-info">Quali ingredienti usiamo?</p>
@@ -42,10 +47,12 @@
 		<div class="row">
 			<hr class="col-12 style14">
 			<div class="col-10 offset-1 row">
-				<p class="col"><?php echo get_post_meta($post->ID, 'et2018-descrizione_panino', true); ?></p>
+				<p class="col"><?php if (isset ($panini['et2018-descrizione'])){$descrizione = $panini['et2018-descrizione'];}; echo $descrizione; ?></p>
+				<?php if (isset ($panini['et2018-link_youtube'])){;?>
 				<div class="col">
-					<iframe width="100%" height="auto" src="<?php echo get_post_meta($post->ID, 'et2018-youtube_link', true); ?>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<iframe width="100%" height="auto" src="<?php if (isset ($panini['et2018-link_youtube'])){$youtube = $panini['et2018-link_youtube'];}; echo $youtube; ?>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div><!-- .col-4 -->
+				<?php };?>
 			</div><!-- col-10 offset-1 -->
 			<hr class="col-12 style14">
 

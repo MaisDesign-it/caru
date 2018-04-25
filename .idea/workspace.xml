@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3937bef-6cb4-4be0-8346-aadcdf50478b" name="Default" comment="Aggiunta parte BGB, da rivedere tutte le metakey">
-      <change afterPath="$PROJECT_DIR$/template-parts/taplist/bgb.php" afterDir="false" />
+    <list default="true" id="e3937bef-6cb4-4be0-8346-aadcdf50478b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taplist.php" beforeDir="false" afterPath="$PROJECT_DIR$/taplist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/taplist/spine-loop.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/taplist/spine-loop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/post-iframe.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/post-iframe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/post-normal.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/post-normal.php" afterDir="false" />
     </list>
     <ignored mask="*.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="bgb.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-parts/taplist/bgb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+            <state relative-caret-position="527">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -46,29 +45,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post-iframe.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="post-normal.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/menucibo/post-normal.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post-iframe.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template-parts/menucibo/post-iframe.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="21" selection-start-line="18" selection-start-column="20" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="527">
+              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site-info.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/footer/site-info.php">
+      <file leaf-file-name="utility.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/utility.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="26" column="102" selection-start-line="26" selection-start-column="89" selection-end-line="26" selection-end-column="102" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+            <state>
+              <caret selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -76,8 +75,8 @@
       <file leaf-file-name="spine-loop.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-parts/taplist/spine-loop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            <state relative-caret-position="119">
+              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -91,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="14756">
+              <caret line="876" column="55" selection-start-line="876" selection-start-column="43" selection-end-line="876" selection-end-column="55" />
               <folding>
                 <element signature="e#7#204#0#PHP" expanded="true" />
               </folding>
@@ -153,8 +152,8 @@
       <find>'id'         =&gt; '</find>
       <find>reset_</find>
       <find>enqu</find>
-      <find>preva</find>
       <find>&lt;img s</find>
+      <find>preva</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -199,9 +198,7 @@
         <option value="$PROJECT_DIR$/js/nuovomodal.js" />
         <option value="$PROJECT_DIR$/css/nuovomodal.css" />
         <option value="$PROJECT_DIR$/js/ajax-pagination.js" />
-        <option value="$PROJECT_DIR$/template-parts/menucibo/post-normal.php" />
         <option value="$PROJECT_DIR$/template-parts/single/single-cat-bun.php" />
-        <option value="$PROJECT_DIR$/css/utility.css" />
         <option value="$PROJECT_DIR$/css/test/part1.css" />
         <option value="$PROJECT_DIR$/css/test/part2.css" />
         <option value="$PROJECT_DIR$/css/test/part3.css" />
@@ -237,15 +234,17 @@
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-piattiunici.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-dolci.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php" />
-        <option value="$PROJECT_DIR$/template-parts/menucibo/post-iframe.php" />
         <option value="$PROJECT_DIR$/template-parts/taplist/via-vuota.php" />
         <option value="$PROJECT_DIR$/template-parts/taplist/via-piena.php" />
         <option value="$PROJECT_DIR$/js/iubenda.js" />
         <option value="$PROJECT_DIR$/template-parts/footer/site-info.php" />
         <option value="$PROJECT_DIR$/taplist.php" />
         <option value="$PROJECT_DIR$/template-parts/taplist/spine-loop.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/template-parts/taplist/bgb.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/template-parts/menucibo/post-normal.php" />
+        <option value="$PROJECT_DIR$/css/utility.css" />
+        <option value="$PROJECT_DIR$/template-parts/menucibo/post-iframe.php" />
       </list>
     </option>
   </component>
@@ -294,6 +293,26 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caru" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caru" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caru" type="462c0819:PsiDirectoryNode" />
+              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caru" type="462c0819:PsiDirectoryNode" />
+              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+              <item name="menucibo" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="caru" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
@@ -485,7 +504,11 @@
       <workItem from="1524444086775" duration="8231000" />
       <workItem from="1524494187743" duration="1135000" />
       <workItem from="1524584424079" duration="12324000" />
-      <workItem from="1524616877964" duration="4522000" />
+      <workItem from="1524616877964" duration="5304000" />
+      <workItem from="1524654239397" duration="2050000" />
+      <workItem from="1524671361441" duration="154000" />
+      <workItem from="1524671585435" duration="6338000" />
+      <workItem from="1524690719337" duration="390000" />
     </task>
     <task id="LOCAL-00001" summary="Primo upload">
       <created>1524173623900</created>
@@ -655,11 +678,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524597473250</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Aggiunta parte BGB, da rivedere tutte le metakey">
+      <created>1524621576872</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1524621576872</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321544000" />
+    <option name="totallyTimeSpent" value="331258000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -675,18 +705,15 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947917" weight="0.32912722" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32912722" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015625" side_tool="true" weight="0.33017877" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.4984375" weight="0.33017877" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32912722" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.3296875" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21041666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21041666" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -694,8 +721,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32912722" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.4984375" visible="true" weight="0.33017877" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -762,20 +792,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/template-parts/taplist/bgb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="78" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/post/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/test/part1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -1073,22 +1089,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/taplist/spine-loop.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/single/single-cat-bun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="63" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/post-iframe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="21" selection-start-line="18" selection-start-column="20" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="119">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -1101,18 +1103,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/taplist/bgb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+        <state relative-caret-position="527">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="14756">
+          <caret line="876" column="55" selection-start-line="876" selection-start-column="43" selection-end-line="876" selection-end-column="55" />
           <folding>
             <element signature="e#7#204#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/utility.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/single/single-cat-bun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="63" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/post-normal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/post-iframe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
         </state>
       </provider>
     </entry>
