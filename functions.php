@@ -56,6 +56,7 @@
 		add_image_size( 'etimue2018-thumbnail-avatar', 100, 100, true );
 		add_image_size( 'etimue2018-single-bun', 512, 512, false );
 		add_image_size( 'etimue2018-cantina-size', 64, 64, array( 'right', 'bottom' ) ); /** Hard crop right bottom **/
+		add_image_size( 'etimue2018-menucibo', 128, 128, array( 'right', 'bottom' ) ); /** Hard crop right bottom **/
 
 
 		// Set the default content width.

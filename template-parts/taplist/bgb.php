@@ -18,9 +18,6 @@
 				if (isset($passaggio['et2018-gusto_prevalente'])){
 					$macrogusto = $passaggio['et2018-gusto_prevalente'];
 				};
-				if (isset($passaggio['et2018-gusto_prevalente'])){
-					$annate = $passaggio['et2018-annata_birra'];
-				};
 				if (isset($passaggio['et2018-gusto_descrittori'])){
 					$descrittori = $passaggio['et2018-gusto_descrittori'];
 				};
