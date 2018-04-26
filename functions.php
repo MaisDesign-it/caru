@@ -52,7 +52,6 @@
 		add_theme_support( 'post-thumbnails' );
 
 		add_image_size( 'etimue2018-featured-image', 2000, 1200, true );
-
 		add_image_size( 'etimue2018-thumbnail-avatar', 100, 100, true );
 		add_image_size( 'etimue2018-single-bun', 512, 512, false );
 		add_image_size( 'etimue2018-cantina-size', 64, 64, array( 'right', 'bottom' ) ); /** Hard crop right bottom **/
@@ -62,11 +61,11 @@
 		// Set the default content width.
 		$GLOBALS['content_width'] = 525;
 
-		// This theme uses wp_nav_menu() in two locations.
+		// This theme uses wp_nav_menu() in three locations.
 		register_nav_menus( array(
 			'top'    => __( 'Top Menu', 'etimue2018' ),
 			'social' => __( 'Social Links Menu', 'etimue2018' ),
-			'special'=> __('Special menu', 'etimue2018'),
+			'special'=> __( 'Special menu', 'etimue2018' ),
 		) );
 
 		/*
@@ -431,7 +430,7 @@
 			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js",'iubendapersonal','1.0',true);
 			wp_enqueue_script('iubendapersonal',get_theme_file_uri( '/js/iubenda.js'),'jquery','1.0',true);
 		}elseif ( is_page_template( 'template-parts/page-menucibo.php' ) ) {
-			wp_enqueue_style( 'carousel-homepage', get_theme_file_uri( '/css/specifici/page-menucibo-actual.css' ) );
+			wp_enqueue_style( 'carousel-homepage', get_theme_file_uri( '/css/specifici/page-menucibo-actual.css' ), '','1.0' );
 			//wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css' ) );
 			//wp_enqueue_style( 'menucibo-bt', get_theme_file_uri( '/css/bootstrap.css' ) );
 			wp_enqueue_script( 'colorbox', get_theme_file_uri( '/js/jquery.colorbox-min.js' ), 'jquery', '1.0', true );
@@ -895,7 +894,14 @@ add_filter( 'rwmb_meta_boxes', function ( $meta_boxes ) {
 					array(
 						'id' => $prefix . 'descrizione',
 						'type' => 'textarea',
-						'name' => esc_html__( 'Descrizione panino', 'et-2018-template' ),
+						'name' => esc_html__( 'Descrizione pietanza', 'et-2018-template' ),
+					),
+					array(
+						'id'   => $prefix.'costo',
+						'type' => 'number',
+						'name' => 'Costo pietanza',
+						'desc' => 'A quanto vendiamo quel piatto?',
+						'step' => '0.1',
 					),
 					array(
 						'id'   => $prefix.'versionemini',

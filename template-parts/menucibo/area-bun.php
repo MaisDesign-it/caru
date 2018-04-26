@@ -28,39 +28,44 @@
 	<?php if (($et_npb === 0) || ($et_npb %4 == 0)){;?><div class="row"><?php };?>
 		<div class="col-3">
 			<div class="row">
-				<div class="col list__item list__item_ajax">
-				<a href="<?php echo esc_url( add_query_arg( 'access_method', 'iframe', get_permalink() ) );?>" class="iframe" title="<?php the_title();?>" data-toggle="tooltip" data-placement="right">
-					<?php /*
-                         <img class="lazyload rounded-circle"
-					     src="<?php echo get_stylesheet_directory_uri(); ?>/img/bn/bun.png"
-					     data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/bun.png"
-					     height="128" width="128"
-					     alt="<?php the_title();?>" />
-                    */;?>
-				<?php
-					$panini = get_post_meta($post->ID, 'gruppo_panini', true);
-					if (isset($panini['et2018-img_low_res'])){
-						$imglow = $panini['et2018-img_low_res'];
-					}
-					if (isset($panini['et2018-img_high_res'])){
-						$imghigh = $panini['et2018-img_high_res'];
-					};
-					if (isset ($imglow)){$imglinkl = wp_get_attachment_url( $imglow );};
-					if (isset ($imghigh)){$imglinkh = wp_get_attachment_url( $imghigh );}
-					if ((isset($imglinkh))||(isset($imglinkl))){;?>
-						<img class="lazyload rounded-circle col-sm-12" src="<?php echo $imglinkl; ?>" data-src="<?php echo $imglinkh; ?>" height="128" width="128" alt="<?php the_title();?>" />
-				<?php }else{
-						if ( has_post_thumbnail() ) {
-							the_post_thumbnail( 'etimue2018-cantina-size' );
-						};
-					};
-					unset($imglinkh);
-					unset($imglinkl);?>
-				</a>
-			</div><!-- list__item list__item_ajax -->
-				<div class="col arrow_box"><h3><?php the_title();?></h3></div>
-			</div>
-		</div>
+				<div class="row">
+						<div class="col list__item list__item_ajax">
+						<a href="<?php echo esc_url( add_query_arg( 'access_method', 'iframe', get_permalink() ) );?>" class="iframe" title="<?php the_title();?>" data-toggle="tooltip" data-placement="right">
+							<?php /*
+		                         <img class="lazyload rounded-circle"
+							     src="<?php echo get_stylesheet_directory_uri(); ?>/img/bn/bun.png"
+							     data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/bun.png"
+							     height="128" width="128"
+							     alt="<?php the_title();?>" />
+		                    */;?>
+						<?php
+							$panini = get_post_meta($post->ID, 'gruppo_panini', true);
+							if (isset($panini['et2018-img_low_res'])){
+								$imglow = $panini['et2018-img_low_res'];
+							}
+							if (isset($panini['et2018-img_high_res'])){
+								$imghigh = $panini['et2018-img_high_res'];
+							};
+							if (isset ($imglow)){$imglinkl = wp_get_attachment_url( $imglow );};
+							if (isset ($imghigh)){$imglinkh = wp_get_attachment_url( $imghigh );}
+							if ((isset($imglinkh))||(isset($imglinkl))){;?>
+								<img class="lazyload rounded-circle col-sm-12" src="<?php echo $imglinkl; ?>" data-src="<?php echo $imglinkh; ?>" height="128" width="128" alt="<?php the_title();?>" />
+						<?php }else{
+								if ( has_post_thumbnail() ) {
+									the_post_thumbnail( 'etimue2018-cantina-size' );
+								};
+							};
+							unset($imglinkh);
+							unset($imglinkl);?>
+						</a>
+					</div><!-- list__item list__item_ajax -->
+				</div><!-- .row -->
+				<div class="row">
+					<div class="col arrow_box"><h3 class="buntitle"><?php the_title();?></h3></div>
+				</div><!-- .row -->
+			</div><!-- .row -->
+
+		</div><!-- .col-3 -->
 		<?php ++$et_npb; if ( ($et_npb %4 == 0) ||  ($et_npb === $count)){echo '</div><hr class="style14">';};
 			wp_reset_postdata();
 			endwhile;endif;?>
@@ -68,5 +73,6 @@
 	<?php
 	/*
 	 * TODO Sistemare nome dei panini
+	 * TODO Eliminare ROW di troppo
 	 */
 	;?>

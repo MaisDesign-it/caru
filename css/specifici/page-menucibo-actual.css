@@ -1723,7 +1723,7 @@ Colorbox
 	border-radius: 0.25rem;
 }
 
-/* Arrow titolo */
+/* Arrow titolo
 .arrow_box {
 	position: relative;
 	background: #666;
@@ -1733,4 +1733,20 @@ Colorbox
 div.col.arrow_box H3{
 	color: #222;
 	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+}
+*/
+.buntitle{
+	text-shadow: -1px 1px 0px rgba(0, 0, 0, 1);
+	font-size: 18px !important;
+}
+.arrow_box {
+	background-color: #2e2e2e;
+	border-radius: 30px;
+	color: rgba(256, 256, 256, 0.6);
+	text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -1px 1px rgba(255, 255, 255, 0.3);
+	padding-top: 14%;
+}
+
+h3.buntitle {
+	font-size: 18px;
 }
