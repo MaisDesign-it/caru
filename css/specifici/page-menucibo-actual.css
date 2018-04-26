@@ -1722,3 +1722,15 @@ Colorbox
 	background-color: #000;
 	border-radius: 0.25rem;
 }
+
+/* Arrow titolo */
+.arrow_box {
+	position: relative;
+	background: #666;
+	border: 4px solid #999;
+	border-radius: 30pc;
+}
+div.col.arrow_box H3{
+	color: #222;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+}

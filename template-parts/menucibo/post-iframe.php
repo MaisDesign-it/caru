@@ -22,11 +22,12 @@
 					}
 					if (isset($panini['et2018-img_high_res'])){
 						$imghigh = $panini['et2018-img_high_res'];
-					}
-				;?>
-				<?php $imglinkl = wp_get_attachment_url( $imglow );
-					$imglinkh = wp_get_attachment_url( $imghigh );?>
-				<img class="lazyload rounded-circle col-sm-12" src="<?php echo $imglinkl; ?>" data-src="<?php echo $imglinkh; ?>" height="512" width="512" alt="Solo birra di qualit&agrave; ad Acireale" />
+					};
+				    if (isset ($imglow)){$imglinkl = wp_get_attachment_url( $imglow );};
+					if (isset ($imghigh)){$imglinkh = wp_get_attachment_url( $imghigh );}
+					if ((isset($imglinkh))||(isset($imglinkl))){;?>
+						<img class="lazyload rounded-circle col-sm-12" src="<?php echo $imglinkl; ?>" data-src="<?php echo $imglinkh; ?>" height="512" width="512" alt="<?php the_title();?>" />
+				<?php };?>
 			</div>
 		</div>
 		<div class="row">
@@ -47,7 +48,7 @@
 		<div class="row">
 			<hr class="col-12 style14">
 			<div class="col-10 offset-1 row">
-				<p class="col"><?php if (isset ($panini['et2018-descrizione'])){$descrizione = $panini['et2018-descrizione'];}; echo $descrizione; ?></p>
+				<p class="col"><?php if (isset ($panini['et2018-descrizione'])){$descrizione = $panini['et2018-descrizione'];}; if (isset ($descrizione)){ echo $descrizione;}; ?></p>
 				<?php if (isset ($panini['et2018-link_youtube'])){;?>
 				<div class="col">
 					<iframe width="100%" height="auto" src="<?php if (isset ($panini['et2018-link_youtube'])){$youtube = $panini['et2018-link_youtube'];}; echo $youtube; ?>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
