@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3937bef-6cb4-4be0-8346-aadcdf50478b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/template-parts/menucibo/selettore/desktop.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/menucibo/selettore/mobile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/specifici/page-menucibo-actual.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/specifici/page-menucibo-actual.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/selettore/desktop.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/selettore/desktop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/selettore/mobile.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/selettore/mobile.php" afterDir="false" />
     </list>
     <ignored mask="*.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,15 +30,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="963">
               <caret line="1802" column="1" selection-start-line="1802" selection-start-column="1" selection-end-line="1802" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="via-piena.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/taplist/via-piena.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -94,24 +81,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="desktop.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="desktop.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-parts/menucibo/selettore/desktop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="68" column="72" selection-start-line="68" selection-start-column="72" selection-end-line="68" selection-end-column="72" />
+            <state relative-caret-position="198">
+              <caret line="57" column="70" selection-start-line="57" selection-start-column="70" selection-end-line="57" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobile.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mobile.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template-parts/menucibo/selettore/mobile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-              <folding>
-                <element signature="e#2407#2414#0#HTML" expanded="true" />
-                <element signature="e#3000#3007#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="area-crepe.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-crepe.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="26" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="42" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -129,7 +121,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.carousel-caption</find>
       <find>enqueue</find>
       <find>mainstyle.css</find>
       <find>style.css</find>
@@ -159,6 +150,7 @@
       <find>thumbnail</find>
       <find>512</find>
       <find>actual</find>
+      <find>col-xs-3</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -174,9 +166,9 @@
       <replace>$detect-&gt;isMobile()</replace>
       <replace>min-width:2048px</replace>
       <replace>!wp_is_mobile()</replace>
-      <replace>col</replace>
       <replace>'id'         =&gt; $prefix.'-</replace>
       <replace>242</replace>
+      <replace>col</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\wamp64\www\wordpress\wp-content\themes\caru</dir>
@@ -248,8 +240,8 @@
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-bun.php" />
         <option value="$PROJECT_DIR$/css/specifici/page-menucibo-actual.css" />
         <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/template-parts/menucibo/selettore/mobile.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php" />
+        <option value="$PROJECT_DIR$/template-parts/menucibo/selettore/mobile.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/selettore/desktop.php" />
       </list>
     </option>
@@ -736,7 +728,7 @@
       <workItem from="1524690719337" duration="2239000" />
       <workItem from="1524703275425" duration="5765000" />
       <workItem from="1524761871839" duration="8008000" />
-      <workItem from="1524791306062" duration="3975000" />
+      <workItem from="1524791306062" duration="5453000" />
     </task>
     <task id="LOCAL-00001" summary="Primo upload">
       <created>1524173623900</created>
@@ -941,11 +933,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524783974133</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css">
+      <created>1524796643123</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1524796643123</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350855000" />
+    <option name="totallyTimeSpent" value="352333000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1037,7 +1036,8 @@
     <MESSAGE value="Migliorate Immagini Insalate e aggiunte di nuove" />
     <MESSAGE value="Aggiunti Meta Field, da sistemare visualizzazione in iFrame" />
     <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta parte BGB, da rivedere tutte le metakey" />
+    <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\wamp64\www\wordpress</wordpressPath>
@@ -1231,13 +1231,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-crepe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="42" column="26" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/taplist/via-vuota.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1377,17 +1370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/selettore/mobile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-          <folding>
-            <element signature="e#2407#2414#0#HTML" expanded="true" />
-            <element signature="e#3000#3007#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1398,10 +1380,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-crepe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/menucibo/selettore/desktop.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="68" column="72" selection-start-line="68" selection-start-column="72" selection-end-line="68" selection-end-column="72" />
+        <state relative-caret-position="198">
+          <caret line="57" column="70" selection-start-line="57" selection-start-column="70" selection-end-line="57" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/selettore/mobile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
         </state>
       </provider>
     </entry>

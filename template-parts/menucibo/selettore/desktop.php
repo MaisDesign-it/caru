@@ -55,7 +55,7 @@
 			/>
 			<h2>Crêpes salate</h2>
 			<p>Sperimenta un mix di gusto insolito.</p>
-			<p><a class="btn btn-outline-info btn-block" href="#crepe" role="button">Scopri di più &raquo;</a></p>
+			<p><a class="btn btn-outline-info btn-block" href="#crepes" role="button">Scopri di più &raquo;</a></p>
 		</div><!-- /.col -->
 		<div class="col">
 			<img class="lazyload rounded-circle"
