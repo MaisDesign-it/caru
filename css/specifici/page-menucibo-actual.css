@@ -1750,3 +1750,54 @@ div.col.arrow_box H3{
 h3.buntitle {
 	font-size: 18px;
 }
+@media screen and ( min-width: 48em ) {
+	.site-navigation-fixed.navigation-top {
+		bottom: auto;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		width: 100%;
+		z-index: 7;
+	}
+}
+@media screen and (min-width: 48em) {
+	.navigation-top {
+		bottom: 0;
+		font-size: 14px;
+		font-size: .875rem;
+		left: 0;
+		position: absolute;
+		right: 0;
+		width: 100%;
+		z-index: 3;
+	}
+}
+.navigation-top {
+	background: #fff;
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+	font-size: 16px;
+	font-size: 1rem;
+	position: relative;
+}
+@media screen and (min-width: 48em) {
+	.navigation-top {
+		bottom: 0;
+		font-size: 14px;
+		font-size: .875rem;
+		left: 0;
+		position: absolute;
+		right: 0;
+		width: 100%;
+		z-index: 3;
+	}
+}
+.navigation-top {
+	background: #fff;
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+	font-size: 16px;
+	font-size: 1rem;
+	position: relative;
+}
