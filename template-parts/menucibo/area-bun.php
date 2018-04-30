@@ -23,9 +23,13 @@
 		<div class="col"><h4><?php echo $catdesc;?></h4></div>
 	</div>
 	<hr class="style14">
-	<?php $catquery = new WP_Query( 'category_name='.$catslug.'&&posts_per_page=-1&&nopaging=true'); $et_npb = 0;?>
+	<?php $catquery = new WP_Query( 'category_name='.$catslug.'&&posts_per_page=-1&&nopaging=true&orderby=title&order=asc'); $et_npb = 0;?>
 	<?php if ($catquery->have_posts() ) : while($catquery->have_posts()) : $catquery->the_post();?>
-	<?php if (($et_npb === 0) || ($et_npb %4 == 0)){;?><div class="row"><?php };?>
+	<?php $passaggiobun = get_post_meta($post->ID, 'gruppo_panini', true);
+		if (isset($passaggiobun['et2018-costo'])){
+			$costo = $passaggiobun['et2018-costo'];
+		};
+	 if (($et_npb === 0) || ($et_npb %4 == 0)){;?><div class="row"><?php };?>
 		<div class="col-3">
 			<div class="row">
 				<div class="row">
@@ -59,9 +63,6 @@
 							unset($imglinkl);?>
 						</a>
 					</div><!-- list__item list__item_ajax -->
-				</div><!-- .row -->
-				<div class="row">
-					<div class="col arrow_box"><h3 class="buntitle"><?php the_title();?></h3></div>
 				</div><!-- .row -->
 			</div><!-- .row -->
 

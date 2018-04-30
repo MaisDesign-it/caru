@@ -23,7 +23,7 @@
 		<div class="col"><h4><?php echo $catdesc;?></h4></div>
 	</div>
 	<hr class="style14">
-	<?php $catquery = new WP_Query( 'category_name='.$catslug.'&&posts_per_page=-1&&nopaging=true'); $et_npb = 0;?>
+	<?php $catquery = new WP_Query( 'category_name='.$catslug.'&&posts_per_page=-1&&nopaging=true&&orderby=title&&order=asc'); $et_npb = 0;?>
 	<?php if ($catquery->have_posts() ) : while($catquery->have_posts()) : $catquery->the_post();?>
 	<?php $passaggioantipasti = get_post_meta($post->ID, 'gruppo_panini', true);
 	if (isset($passaggioantipasti['et2018-costo'])){
@@ -52,5 +52,5 @@
 			</div>
 		</div>
 		<?php ++$et_npb; if ( ($et_npb %2 == 0) ||  ($et_npb === $count)){echo '</div><hr class="style14">';};
-			endwhile;endif;?>
+			wp_reset_postdata();endwhile;endif;?>
 	</div>

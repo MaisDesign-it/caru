@@ -11,9 +11,19 @@
 ?>
 <!-- FOOTER -->
 <footer class="container">
-	<p class="float-right"><a href="#">Torna su</a></p>
-	<p>&copy; 2018 Etimu&egrave; Pub &middot; <a href="https://www.iubenda.com/privacy-policy/907140">Privacy</a> &middot; <a href="https://www.iubenda.com/privacy-policy/907140/cookie-policy">Cookie Law</a></p>
+	<p class="float-right"><a title="Torna Su" href="#">Torna su</a></p>
+	<p>&copy; 2018 Etimu&egrave; Pub &middot; <a title="Privacy" href="https://www.iubenda.com/privacy-policy/907140">Privacy</a> &middot; <a title="Cookie Law" href="https://www.iubenda.com/privacy-policy/907140/cookie-policy">Cookie Law</a></p>
 </footer>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118401685-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-118401685-1');
+</script>
+
 <?php /*
 <div class="site-info">
 	<script type="text/javascript">

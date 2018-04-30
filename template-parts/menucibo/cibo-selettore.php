@@ -83,8 +83,7 @@
 	</div><!-- /.row -->
 </div><!-- .marketing -->
  */;?>
-	<?php get_template_part('template-parts/menucibo/selettore/mobile');?>
+	<?php get_template_part('template-parts/menucibo/selettore/selettore','mobile');?>
 <?php }else{;?>
-
-
+	<?php get_template_part('template-parts/menucibo/selettore/selettore','desktop');?>
 <?php };?>

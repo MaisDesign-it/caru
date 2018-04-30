@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3937bef-6cb4-4be0-8346-aadcdf50478b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/selettore/desktop.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/selettore/desktop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/selettore/mobile.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/selettore/mobile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/homeshortcss-1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basichome2018.php" beforeDir="false" afterPath="$PROJECT_DIR$/basichome2018.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/specifici/page-menucibo-actual.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/specifici/page-menucibo-actual.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/footer/site-info.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/footer/site-info.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/frontpage/frontpage-carousel.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/frontpage/frontpage-carousel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/frontpage/frontpage-featurette.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/frontpage/frontpage-featurette.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/frontpage/frontpage-marketing.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/frontpage/frontpage-marketing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/area-antipasti.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/area-antipasti.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/area-bun.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/area-bun.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/area-tagliere.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/area-tagliere.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/selettore/desktop.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/selettore/selettore-desktop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/selettore/mobile.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/selettore/selettore-mobile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/taplist/bgb.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/taplist/bgb.php" afterDir="false" />
     </list>
     <ignored mask="*.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,94 +31,95 @@
   <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="area-bun.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-bun.php">
+      <file leaf-file-name="basichome2018.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basichome2018.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+            <state relative-caret-position="196">
+              <caret line="79" column="113" selection-start-line="79" selection-start-column="113" selection-end-line="79" selection-end-column="113" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-menucibo-actual.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/specifici/page-menucibo-actual.css">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="963">
-              <caret line="1802" column="1" selection-start-line="1802" selection-start-column="1" selection-end-line="1802" selection-end-column="1" />
+            <state relative-caret-position="187">
+              <caret line="22" column="113" selection-start-line="22" selection-start-column="113" selection-end-line="22" selection-end-column="113" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/post/content.php">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="taplist.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taplist.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="bgb.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-parts/taplist/bgb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" selection-start-line="4" selection-start-column="18" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="918">
+              <caret line="54" column="98" selection-start-line="54" selection-start-column="98" selection-end-line="54" selection-end-column="98" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="area-antipasti.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-antipasti.php">
+      <file leaf-file-name="site-branding.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/header/site-branding.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+            <state relative-caret-position="969">
+              <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="227" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions.php">
+      <file leaf-file-name="site-info.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/footer/site-info.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="433" column="125" selection-start-line="433" selection-start-column="125" selection-end-line="433" selection-end-column="125" />
-              <folding>
-                <element signature="e#7#204#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cibo-selettore.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php">
+      <file leaf-file-name="homeshortcss-1.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/homeshortcss-1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
-              <folding>
-                <element signature="e#30#4172#0#HTML" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="17" column="2" selection-start-line="17" selection-end-line="17" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="desktop.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/menucibo/selettore/desktop.php">
+      <file leaf-file-name="frontpage-featurette.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/frontpage/frontpage-featurette.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="57" column="70" selection-start-line="57" selection-start-column="70" selection-end-line="57" selection-end-column="70" />
+            <state relative-caret-position="782">
+              <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobile.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template-parts/menucibo/selettore/mobile.php">
+      <file leaf-file-name="frontpage-marketing.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/frontpage/frontpage-marketing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+            <state relative-caret-position="493">
+              <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="area-crepe.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-crepe.php">
+      <file leaf-file-name="frontpage-carousel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/frontpage/frontpage-carousel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="26" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="42" selection-end-column="26" />
+            <state relative-caret-position="2210">
+              <caret line="130" column="24" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -114,16 +130,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="WordPress Main Plugin File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>enqueue</find>
-      <find>mainstyle.css</find>
-      <find>style.css</find>
       <find>loading.png</find>
       <find>loading.gif</find>
       <find>tooltip</find>
@@ -151,6 +164,9 @@
       <find>512</find>
       <find>actual</find>
       <find>col-xs-3</find>
+      <find>col-12</find>
+      <find>&lt;h3&gt;</find>
+      <find>h1</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -169,6 +185,7 @@
       <replace>'id'         =&gt; $prefix.'-</replace>
       <replace>242</replace>
       <replace>col</replace>
+      <replace>&lt;h3 class=&quot;carufront&quot;&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\wamp64\www\wordpress\wp-content\themes\caru</dir>
@@ -192,10 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/template-parts/single/single-cat-bun.php" />
-        <option value="$PROJECT_DIR$/css/test/part1.css" />
-        <option value="$PROJECT_DIR$/css/test/part2.css" />
-        <option value="$PROJECT_DIR$/css/test/part3.css" />
         <option value="$PROJECT_DIR$/css/test/part4.css" />
         <option value="$PROJECT_DIR$/css/homemobileshortcss.css" />
         <option value="$PROJECT_DIR$/mobilehome.css" />
@@ -208,7 +221,6 @@
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-piadina.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-unici.php" />
         <option value="$PROJECT_DIR$/css/specifici/taplist.css" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/css/mainstyle.css" />
         <option value="$PROJECT_DIR$/js/page-menucibo.js" />
         <option value="$PROJECT_DIR$/css/specifici/page-menucibo-bt.css" />
@@ -220,29 +232,34 @@
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-piatti-unici.php" />
         <option value="$PROJECT_DIR$/template-parts/page-menucibo.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-insalate.php" />
-        <option value="$PROJECT_DIR$/template-parts/menucibo/area-tagliere.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-crepe.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-piattiunici.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-dolci.php" />
         <option value="$PROJECT_DIR$/template-parts/taplist/via-vuota.php" />
         <option value="$PROJECT_DIR$/js/iubenda.js" />
-        <option value="$PROJECT_DIR$/template-parts/footer/site-info.php" />
         <option value="$PROJECT_DIR$/taplist.php" />
         <option value="$PROJECT_DIR$/template-parts/taplist/spine-loop.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/post-normal.php" />
         <option value="$PROJECT_DIR$/css/utility.css" />
-        <option value="$PROJECT_DIR$/basichome2018.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/post-iframe.php" />
         <option value="$PROJECT_DIR$/css/specifici/page-menucibo-actual-1.css" />
-        <option value="$PROJECT_DIR$/template-parts/taplist/bgb.php" />
         <option value="$PROJECT_DIR$/template-parts/taplist/via-piena.php" />
-        <option value="$PROJECT_DIR$/template-parts/menucibo/area-antipasti.php" />
-        <option value="$PROJECT_DIR$/template-parts/menucibo/area-bun.php" />
-        <option value="$PROJECT_DIR$/css/specifici/page-menucibo-actual.css" />
-        <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/selettore/mobile.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/selettore/desktop.php" />
+        <option value="$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php" />
+        <option value="$PROJECT_DIR$/template-parts/menucibo/area-antipasti.php" />
+        <option value="$PROJECT_DIR$/template-parts/menucibo/area-tagliere.php" />
+        <option value="$PROJECT_DIR$/css/specifici/page-menucibo-actual.css" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/template-parts/menucibo/area-bun.php" />
+        <option value="$PROJECT_DIR$/template-parts/frontpage/frontpage-carousel.php" />
+        <option value="$PROJECT_DIR$/css/homeshortcss-1.css" />
+        <option value="$PROJECT_DIR$/template-parts/frontpage/frontpage-marketing.php" />
+        <option value="$PROJECT_DIR$/template-parts/frontpage/frontpage-featurette.php" />
+        <option value="$PROJECT_DIR$/template-parts/taplist/bgb.php" />
+        <option value="$PROJECT_DIR$/template-parts/footer/site-info.php" />
+        <option value="$PROJECT_DIR$/basichome2018.php" />
+        <option value="$PROJECT_DIR$/header.php" />
       </list>
     </option>
   </component>
@@ -277,17 +294,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="caru" type="cbb8eebc:String" user="caru" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,7 +310,32 @@
               <item name="caru" type="b2602c69:ProjectViewProjectNode" />
               <item name="caru" type="462c0819:PsiDirectoryNode" />
               <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caru" type="462c0819:PsiDirectoryNode" />
+              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+              <item name="frontpage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caru" type="462c0819:PsiDirectoryNode" />
+              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caru" type="462c0819:PsiDirectoryNode" />
+              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
               <item name="menucibo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caru" type="462c0819:PsiDirectoryNode" />
+              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+              <item name="menucibo" type="462c0819:PsiDirectoryNode" />
+              <item name="selettore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="caru" type="b2602c69:ProjectViewProjectNode" />
@@ -334,205 +365,16 @@
               <item name="caru" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
             <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="caru" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="caru" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="caru" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="selettore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="caru" type="462c0819:PsiDirectoryNode" />
-              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="caru" type="462c0819:PsiDirectoryNode" />
-              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
-              <item name="menucibo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="caru" type="462c0819:PsiDirectoryNode" />
-              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
-              <item name="menucibo" type="462c0819:PsiDirectoryNode" />
-              <item name="selettore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="caru" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="caru" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="caru" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="selettore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="caru" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="selettore" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="caru" type="462c0819:PsiDirectoryNode" />
-              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="caru" type="462c0819:PsiDirectoryNode" />
-              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
-              <item name="menucibo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="caru" type="462c0819:PsiDirectoryNode" />
-              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
-              <item name="menucibo" type="462c0819:PsiDirectoryNode" />
-              <item name="selettore" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="caru" type="cbb8eebc:String" user="caru" />
             </path>
           </expand>
           <select />
@@ -729,6 +571,13 @@
       <workItem from="1524703275425" duration="5765000" />
       <workItem from="1524761871839" duration="8008000" />
       <workItem from="1524791306062" duration="5453000" />
+      <workItem from="1524798557458" duration="42000" />
+      <workItem from="1524855191942" duration="306000" />
+      <workItem from="1524926736084" duration="5415000" />
+      <workItem from="1525000034022" duration="3399000" />
+      <workItem from="1525015570369" duration="4083000" />
+      <workItem from="1525042084515" duration="599000" />
+      <workItem from="1525107651816" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="Primo upload">
       <created>1524173623900</created>
@@ -940,11 +789,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524796643123</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css">
+      <created>1524798582480</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1524798582480</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="352333000" />
+    <option name="totallyTimeSpent" value="366230000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -967,10 +823,9 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.3296875" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21041666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1046875" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -981,6 +836,7 @@
       <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32912722" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1048,27 +904,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/bootstrap-grid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" selection-end-line="2049" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/test/part4.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34833">
-          <caret line="2049" column="46" selection-start-line="2049" selection-start-column="46" selection-end-line="2049" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/homemobileshortcss.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/lazyload.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1095,20 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/homeshortcss.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret column="20433" selection-start-column="20242" selection-end-column="20433" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/header/site-branding.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="227" />
         </state>
       </provider>
     </entry>
@@ -1144,13 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14547" selection-start-column="14547" selection-end-column="14547" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1196,13 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-tagliere.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-insalate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1221,13 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="32" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/frontpage/frontpage-marketing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="265" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="265" />
         </state>
       </provider>
     </entry>
@@ -1252,13 +1052,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/footer/site-info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="102" selection-start-line="26" selection-start-column="89" selection-end-line="26" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/page-menucibo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1277,13 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="63" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basichome2018.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2907">
-          <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1308,13 +1094,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taplist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/taplist/spine-loop.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1329,75 +1108,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/post/content.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/taplist/bgb.php">
+    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-crepe.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="4" selection-start-column="18" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-antipasti.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-bun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="433" column="125" selection-start-line="433" selection-start-column="125" selection-end-line="433" selection-end-column="125" />
-          <folding>
-            <element signature="e#7#204#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/specifici/page-menucibo-actual.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="963">
-          <caret line="1802" column="1" selection-start-line="1802" selection-start-column="1" selection-end-line="1802" selection-end-column="1" />
+        <state relative-caret-position="714">
+          <caret line="42" column="26" selection-start-line="39" selection-start-column="24" selection-end-line="42" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="e#30#4172#0#HTML" />
-          </folding>
+        <state relative-caret-position="1479">
+          <caret line="87" column="82" selection-start-line="87" selection-start-column="82" selection-end-line="87" selection-end-column="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-crepe.php">
+    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/selettore/selettore-mobile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="26" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="42" selection-end-column="26" />
+        <state relative-caret-position="731">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/selettore/desktop.php">
+    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/selettore/selettore-desktop.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="969">
           <caret line="57" column="70" selection-start-line="57" selection-start-column="70" selection-end-line="57" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/selettore/mobile.php">
+    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-tagliere.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        <state relative-caret-position="765">
+          <caret line="45" column="22" selection-start-line="43" selection-start-column="16" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-antipasti.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="6" selection-start-line="27" selection-start-column="4" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap-grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="189" column="7" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/specifici/page-menucibo-actual.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30583">
+          <caret line="1799" column="1" selection-start-line="1799" selection-start-column="1" selection-end-line="1799" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7225">
+          <caret line="433" column="127" selection-start-line="433" selection-start-column="127" selection-end-line="433" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-bun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/homeshortcss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret column="3845" selection-end-column="21107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/frontpage/frontpage-carousel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="130" column="24" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/homeshortcss-1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="2" selection-start-line="17" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/frontpage/frontpage-marketing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/frontpage/frontpage-featurette.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taplist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/taplist/bgb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="98" selection-start-line="54" selection-start-column="98" selection-end-line="54" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/header/site-branding.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="227" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/footer/site-info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basichome2018.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="79" column="113" selection-start-line="79" selection-start-column="113" selection-end-line="79" selection-end-column="113" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="113" selection-start-line="22" selection-start-column="113" selection-end-line="22" selection-end-column="113" />
         </state>
       </provider>
     </entry>

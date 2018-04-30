@@ -20,6 +20,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <?php wp_head(); ?>
+	<script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0015/0557.js" async="async"></script>
 </head>
 <?php if (!is_page_template('taplist.php')){;?>
 <body <?php body_class(); ?>>
@@ -53,7 +54,13 @@
 		echo '</div><!-- .single-featured-image-header -->';
 	endif;
 	?>
-
+	<?php
+		if ( function_exists('yoast_breadcrumb') ) {
+			yoast_breadcrumb('
+<p id="breadcrumbs">','</p>
+');
+		}
+	?>
 	<div class="site-content-contain">
 		<div id="content" class="site-content">
 			<?php };?>

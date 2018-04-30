@@ -51,9 +51,9 @@
 				$panini = get_post_meta($post->ID, 'gruppo_panini', true);
 				if (isset($panini['et2018-img_low_res'])){
 					$imglow = $panini['et2018-img_low_res'];
+					$imglink = wp_get_attachment_url( $imglow );
+					echo '<img src="'.$imglink.'" alt="'.get_the_title().'" title="'.get_the_title().'"/>';
 				};?>
-			<?php $imglink = wp_get_attachment_url( $imglow ); ?>
-			<img src="<?php echo $imglink;?>" >
 			<?php // TODO Dare stile decente ?>
 
 		</div><!-- .singbgb -->
