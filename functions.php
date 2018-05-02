@@ -431,7 +431,7 @@
 			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js",'iubendapersonal','1.0',true);
 			wp_enqueue_script('iubendapersonal',get_theme_file_uri( '/js/iubenda.js'),'jquery','1.0',true);
 		}elseif ( is_page_template( 'template-parts/page-menucibo.php' ) ) {
-			wp_enqueue_style( 'carousel-homepage', get_theme_file_uri( '/css/specifici/page-menucibo-actual.css' ), '','1.0.2.1' );
+			wp_enqueue_style( 'carousel-homepage', get_theme_file_uri( '/css/specifici/page-menucibo-actual.css' ), '','1.0.2.2' );
 			//wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css' ) );
 			//wp_enqueue_style( 'menucibo-bt', get_theme_file_uri( '/css/bootstrap.css' ) );
 			wp_enqueue_script( 'colorbox', get_theme_file_uri( '/js/jquery.colorbox-min.js' ), 'jquery', '1.0', true );

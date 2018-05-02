@@ -20,7 +20,58 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <?php wp_head(); ?>
-	<script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0015/0557.js" async="async"></script>
+	<!-- Microdata Schema.org https://technicalseo.com/seo-tools/schema-markup-generator/ -->
+	<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BarOrPub",
+  "name": "Etimuè",
+  "image": "https://etimue-it.exactdn.com/wp-content/uploads/2018/04/cropped-logo2018-512px.png?strip=all&w=250&ssl=1",
+  "@id": "",
+  "url": "https://etimue.it",
+  "telephone": "0958363554",
+  "priceRange": "5€-15€",
+  "menu": "https://etimue.it/menucibo",
+  "servesCuisine": "Pub",
+  "acceptsReservations": "true",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "via monsignor genuardi 28",
+    "addressLocality": "Acireale",
+    "postalCode": "95024",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 37.613254,
+    "longitude": 15.166891999999962
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Sunday"
+    ],
+    "opens": "20:00",
+    "closes": "01:00"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Saturday",
+    "opens": "20:00",
+    "closes": "02:00"
+  }],
+  "sameAs": [
+    "http://fb.me/etimue",
+    "https://twitter.com/etimue",
+    "https://plus.google.com/+EtimueIt",
+    "https://www.instagram.com/etimue/",
+    "https://www.youtube.com/user/etimue"
+  ]
+}
+</script>
 </head>
 <?php if (!is_page_template('taplist.php')){;?>
 <body <?php body_class(); ?>>

@@ -1,18 +1,18 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<?php require_once '/home/etimueit/public_html/wp-content/themes/caru/libs/mobiledetect.php';
 		$detect = new Mobile_Detect;?>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="title" content="Etimuè Pub Birreria ad Acireale, piadineria con birre artigianali">
-	<meta name="description" content="Etimuè Pub ad Acireale, in provincia di Catania,locale specializzato in birra artigianale. Prepariamo artigianalmente anche piadina e hamburger all'americana.Ricordati di prenotare perché la sala si riempie in fretta di persone che vogliono bere e mangiare artigianale.">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="title" content="Etimuè Pub Birreria ad Acireale piadineria birre artigianali">
+	<meta name="description" content="Etimuè Pub ad Acireale, in provincia di Catania, specializzato in birra artigianale. Prepariamo artigianalmente anche piadina e hamburger all'americana.Prenota.">
 	<meta name="keywords" content="piadina, piadina romagnola, piadina artigianale, hamburger, hamburger americani, bun, birra, birra artigianale, birra artigianale italian, acireale, catania, provincia di catania, piadineria, hamburgeria, birreria">
 	<meta name="robots" content="index, follow">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="language" content="Italian">
 	<meta name="revisit-after" content="7">
 	<meta name="author" content="Etimuè pub">
-    <title>Etimuè Pub Birreria Acireale</title>
+	<title>Etimuè Pub Birreria ad Acireale piadineria birre artigianali</title>
 	<meta name="google-site-verification" content="h32cUFD6gnkJOxLsO_xY9E_5n_TvnaVZGQg4YmvdAFk" />
 	<meta name="msvalidate.01" content="8A1B887846DC86A089999C214AF25456" />
 	<!-- Facebook Open Graph -->
@@ -77,7 +77,58 @@
 	<meta name="msapplication-TileImage" content="<?php echo get_stylesheet_directory_uri(); ?>/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	<link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon/favicon.ico">
-	<script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0015/0557.js" async="async"></script>
+	<!-- Microdata Schema.org https://technicalseo.com/seo-tools/schema-markup-generator/ -->
+	<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BarOrPub",
+  "name": "Etimuè",
+  "image": "https://etimue-it.exactdn.com/wp-content/uploads/2018/04/cropped-logo2018-512px.png?strip=all&w=250&ssl=1",
+  "@id": "",
+  "url": "https://etimue.it",
+  "telephone": "0958363554",
+  "priceRange": "5€-15€",
+  "menu": "https://etimue.it/menucibo",
+  "servesCuisine": "Pub",
+  "acceptsReservations": "true",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "via monsignor genuardi 28",
+    "addressLocality": "Acireale",
+    "postalCode": "95024",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 37.613254,
+    "longitude": 15.166891999999962
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Sunday"
+    ],
+    "opens": "20:00",
+    "closes": "01:00"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Saturday",
+    "opens": "20:00",
+    "closes": "02:00"
+  }],
+  "sameAs": [
+    "http://fb.me/etimue",
+    "https://twitter.com/etimue",
+    "https://plus.google.com/+EtimueIt",
+    "https://www.instagram.com/etimue/",
+    "https://www.youtube.com/user/etimue"
+  ]
+}
+</script>
 </head>
 <body>
 <?php if ( is_user_logged_in() ) {echo '<body>';}else{echo'<body style="padding-top: 0">';}?>
@@ -130,6 +181,5 @@
 
     gtag('config', 'UA-118401685-1');
 </script>
-
 </body>
 </html>

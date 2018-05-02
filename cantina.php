@@ -2,19 +2,8 @@
 	/*
 	Template Name: Cantina
 	*/
-	wp_head();
-	?>
-<html>
-<body class="container">
-<header class="row">
-	<div class="col">
-		<img class="lazyload featurette-image img-fluid mx-auto"
-		     src="<?php echo get_stylesheet_directory_uri(); ?>/img/bn/botti-min-bn.jpg"
-		     data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/botti-min.jpg"
-		     height="295" width="784"
-		     alt="Cosa abbiamo ad invecchiare nella nostra cantina?"/>
-	</div>
-</header>
+	get_header();
+?>
 <article>
 	<?php get_template_part('template-parts/cantina/cantina','loop');?>
 </article>
@@ -52,5 +41,4 @@
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/lazyload.js"></script>
 <script>window.addEventListener("load", function (event) {lazyload();});</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha256-5+02zu5UULQkO7w1GIr6vftCgMfFdZcAHeDtFnKZsBs=" crossorigin="anonymous"></script>
-</body>
-</html>
+<?php get_footer();?>
