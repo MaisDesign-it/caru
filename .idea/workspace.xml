@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3937bef-6cb4-4be0-8346-aadcdf50478b" name="Default" comment="">
+    <list default="true" id="e3937bef-6cb4-4be0-8346-aadcdf50478b" name="Default" comment="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Riscritta e spostata pagina cantina">
+      <change afterPath="$PROJECT_DIR$/css/specifici/cantina.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-parts/cantina.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basichome2018.php" beforeDir="false" afterPath="$PROJECT_DIR$/basichome2018.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cantina.php" beforeDir="false" afterPath="$PROJECT_DIR$/cantina.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/specifici/page-menucibo-actual.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/specifici/page-menucibo-actual.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cantina.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taplist.php" beforeDir="false" afterPath="$PROJECT_DIR$/taplist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/frontpage/frontpage-featurette.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/frontpage/frontpage-featurette.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/OLDarea-bun.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/area-crepe.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/area-crepe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/area-dolci.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/area-dolci.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/area-insalate.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/area-insalate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/area-piadina.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/area-piadina.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/area-piattiunici.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/area-piattiunici.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/area-unici.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php" afterDir="false" />
     </list>
     <ignored mask="*.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,12 +29,17 @@
         </entry>
       </file>
       <file leaf-file-name="cantina.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cantina.php">
+        <entry file="file://$PROJECT_DIR$/template-parts/cantina.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="51">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cantina.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/specifici/cantina.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="cibo-selettore.php" pinned="false" current-in-tab="false">
@@ -54,15 +47,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="area-crepe.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-crepe.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="37" selection-end-line="55" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -106,8 +90,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="433" column="127" selection-start-line="433" selection-start-column="127" selection-end-line="433" selection-end-column="127" />
+            <state relative-caret-position="306">
+              <caret line="447" column="107" selection-start-line="447" selection-start-column="107" selection-end-line="447" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -206,8 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mobilehome.css" />
-        <option value="$PROJECT_DIR$/template-parts/header/site-branding.php" />
         <option value="$PROJECT_DIR$/css/mobilehome.css" />
         <option value="$PROJECT_DIR$/css/homeshortcss.css" />
         <option value="$PROJECT_DIR$/et2018.php" />
@@ -252,10 +234,12 @@
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-dolci.php" />
         <option value="$PROJECT_DIR$/basichome2018.php" />
         <option value="$PROJECT_DIR$/taplist.php" />
-        <option value="$PROJECT_DIR$/cantina.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-unici.php" />
         <option value="$PROJECT_DIR$/css/specifici/page-menucibo-actual.css" />
+        <option value="$PROJECT_DIR$/cantina.php" />
+        <option value="$PROJECT_DIR$/css/specifici/cantina.css" />
+        <option value="$PROJECT_DIR$/template-parts/cantina/cantina.php" />
         <option value="$PROJECT_DIR$/functions.php" />
       </list>
     </option>
@@ -313,6 +297,12 @@
               <item name="caru" type="b2602c69:ProjectViewProjectNode" />
               <item name="caru" type="462c0819:PsiDirectoryNode" />
               <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caru" type="462c0819:PsiDirectoryNode" />
+              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+              <item name="cantina" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="caru" type="b2602c69:ProjectViewProjectNode" />
@@ -405,19 +395,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Bitnami\wordpress-4.9.4-6\apps\wordpress\htdocs\wp-content\themes\caru\template-parts" />
+      <recent name="C:\Bitnami\wordpress-4.9.4-6\apps\wordpress\htdocs\wp-content\themes\caru\template-parts\cantina" />
+      <recent name="C:\Bitnami\wordpress-4.9.4-6\apps\wordpress\htdocs\wp-content\themes\caru\css\specifici" />
+      <recent name="C:\Bitnami\wordpress-4.9.4-6\apps\wordpress\htdocs\wp-content\themes\caru" />
+      <recent name="C:\Bitnami\wordpress-4.9.4-6\apps\wordpress\htdocs\wp-content\themes\caru\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Bitnami\wordpress-4.9.4-6\apps\wordpress\htdocs\wp-content\themes\caru\img\bn" />
       <recent name="C:\Bitnami\wordpress-4.9.4-6\apps\wordpress\htdocs\wp-content\themes\caru\css\specifici" />
       <recent name="C:\Bitnami\wordpress-4.9.4-6\apps\wordpress\htdocs\wp-content\themes\caru\css" />
       <recent name="C:\Bitnami\wordpress-4.9.4-6\apps\wordpress\htdocs\wp-content\themes\caru" />
       <recent name="C:\Bitnami\wordpress-4.9.4-6\apps\wordpress\htdocs\wp-content\themes\caru\css\img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Bitnami\wordpress-4.9.4-6\apps\wordpress\htdocs\wp-content\themes\caru\css\specifici" />
-      <recent name="C:\Bitnami\wordpress-4.9.4-6\apps\wordpress\htdocs\wp-content\themes\caru" />
-      <recent name="C:\Bitnami\wordpress-4.9.4-6\apps\wordpress\htdocs\wp-content\themes\caru\template-parts" />
-      <recent name="C:\Bitnami\wordpress-4.9.4-6\apps\wordpress\htdocs\wp-content\themes\caru\img" />
-      <recent name="C:\Bitnami\wordpress-4.9.4-6\apps\wordpress\htdocs\wp-content\themes\caru\template-parts\frontpage" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -589,7 +579,7 @@
       <workItem from="1525183719475" duration="468000" />
       <workItem from="1525194290538" duration="2069000" />
       <workItem from="1525260021520" duration="1357000" />
-      <workItem from="1525290663260" duration="1088000" />
+      <workItem from="1525290663260" duration="3203000" />
     </task>
     <task id="LOCAL-00001" summary="Primo upload">
       <created>1524173623900</created>
@@ -815,11 +805,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525107797725</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?">
+      <created>1525291903646</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1525291903646</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381744000" />
+    <option name="totallyTimeSpent" value="383859000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -912,7 +909,8 @@
     <MESSAGE value="Aggiunti Meta Field, da sistemare visualizzazione in iFrame" />
     <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey" />
     <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css" />
+    <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\wamp64\www\wordpress</wordpressPath>
@@ -923,7 +921,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mobilehome.css" />
     <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1211,13 +1208,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cantina.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1246,13 +1236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/page-menucibo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/mainstyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -1267,10 +1250,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/specifici/cantina.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/page-menucibo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/cantina.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="433" column="127" selection-start-line="433" selection-start-column="127" selection-end-line="433" selection-end-column="127" />
+        <state relative-caret-position="306">
+          <caret line="447" column="107" selection-start-line="447" selection-start-column="107" selection-end-line="447" selection-end-column="107" />
         </state>
       </provider>
     </entry>
