@@ -453,14 +453,14 @@
 			wp_enqueue_script( 'iubendabasic', "//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js", 'iubendapersonal', '1.0', true );
 			wp_enqueue_script( 'iubendapersonal', get_theme_file_uri( '/js/iubenda.js' ), 'jquery', '1.0', true );
 		}elseif (is_page_template('template-parts/cantina.php')){
-			wp_enqueue_style('cantinaccordion',get_theme_file_uri('css/specifici/cantina.css'),'','1.0');
+			wp_enqueue_style('cantinaccordion',get_theme_file_uri('css/specifici/cantina.css'),'','1.0.0.1');
 			wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css'),'','1.0.0.1'  );
-			wp_enqueue_script( 'et-popper', "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js#asyncload", 'jquery', '1.0.0.1', true );
-			wp_enqueue_script( 'et-lazy', get_theme_file_uri( '/js/lazyload.js#asyncload' ), 'jquery', '1.0.0.1', true );
-			wp_enqueue_script( 'et-bootstrap', "//maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js#asyncload", 'jquery', '1.0.0.1', true );
-			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js#asyncload",'iubendapersonal','1.0.0.1',true);
-			wp_enqueue_script('iubendapersonal',get_theme_file_uri( '/js/iubenda.js#asyncload'),'jquery','1.0.0.1',true);
-			wp_enqueue_script('cantinascript',get_theme_file_uri( '/js/cantina.js#asyncload'),'jquery','1.0.0.1',true);
+			wp_enqueue_script( 'et-popper', "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js", 'jquery', '1.0.0.4', true );
+			wp_enqueue_script( 'et-lazy', get_theme_file_uri( '/js/lazyload.js' ), 'jquery', '1.0.0.2', true );
+			wp_enqueue_script( 'et-bootstrap', "//maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js", 'et-popper', '1.0.0.3', true );
+			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js#asyncload",'iubendapersonal','1.0.0.2',true);
+			wp_enqueue_script('iubendapersonal',get_theme_file_uri( '/js/iubenda.js#asyncload'),'jquery','1.0.0.2',true);
+			wp_enqueue_script('cantinascript',get_theme_file_uri( '/js/cantina.js'),'et-bootstrap','1.0.0.3',true);
 		}else {
 			wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css' ) );
 			wp_enqueue_style( 'not-not-homepage', get_theme_file_uri( '/css/bootstrap-grid.min.css' ) );
@@ -760,6 +760,7 @@ add_filter( 'rwmb_meta_boxes', function ( $meta_boxes ) {
 				'taxonomy'    => 'category',
 				'field_type'  => 'checkbox_tree',
 			),
+			/* Gruppo Birra */
 			array(
 				'id'      => 'gruppo_birra',
 				'type'    => 'group',
@@ -767,7 +768,7 @@ add_filter( 'rwmb_meta_boxes', function ( $meta_boxes ) {
 				'visible' => array(
 					'when'     => array(
 						array( 'selettore_categoria', 'contains', '2' ),
-						array( 'selettore_categoria', 'contains', '28' ),
+						//array( 'selettore_categoria', 'contains', '28' ),
 					),
 					'relation' => 'or',
 				),
@@ -882,6 +883,7 @@ add_filter( 'rwmb_meta_boxes', function ( $meta_boxes ) {
 					),
 				),
 			),
+			/* Gruppo Panini */
 			array(
 				'id'      => 'gruppo_panini',
 				'type'    => 'group',
@@ -963,6 +965,149 @@ add_filter( 'rwmb_meta_boxes', function ( $meta_boxes ) {
 					*/
 				),
 			),
+			/* Gruppo Cantina */
+			array(
+				'id'      => 'gruppo_cantina',
+				'type'    => 'group',
+				'name'    => 'Specifiche birre',
+				'visible' => array(
+					'when'     => array(
+						//array( 'selettore_categoria', 'contains', '2' ),
+						array( 'selettore_categoria', 'contains', '28' ),
+					),
+					'relation' => 'or',
+				),
+				'fields'  => array(
+					array(
+						'id'          => $prefix.'nome_birra',
+						'type'        => 'text',
+						'name'        => 'Nome Birra',
+						'desc'        => 'Il nome della birra',
+						'placeholder' => 'Nome birra',
+					),
+					array(
+						'id'          => $prefix.'nome_birrificio',
+						'type'        => 'text',
+						'name'        => 'Nome birrificio',
+						'desc'        => "Inserire il nome del birrificio con l'iniziale maiuscola",
+						'placeholder' => 'Nome birrificio',
+					),
+					array(
+						'id'   => $prefix.'gradazione',
+						'type' => 'number',
+						'name' => 'Gradazione birra',
+						'desc' => 'Inserire la gradazione senza segni (NO: % e nemmeno: °)',
+						'step' => '0.1',
+					),
+					array(
+						'id'   => $prefix.'stile_birra',
+						'type' => 'text',
+						'name' => 'Stile birra',
+						'desc' => 'Inserire lo stile della birra',
+					),
+					array(
+						'id'     => $prefix.'gusto_prevalente',
+						'name'   => 'Gusto prevalente',
+						'type'   => 'radio',
+						'desc'   => 'Gusto prevalente della birra',
+						'options' => array(
+							'amaro' => 'Amaro',
+							'dolce' => 'Dolce',
+							'acido' => 'Acido',
+							'tostato' => 'Tostato',
+						),
+						'inline' => true,
+					),
+					array(
+						'id'      => $prefix.'gusto_descrittori',
+						'name'    => 'Scegli i descrittori della birra',
+						'type'    => 'checkbox_list',
+						'desc'    => 'La lista dei descrittori presa da qui: https://www.pintamedicea.com/birra/2017/la-ruota-dei-sapori-di-meilgaard/',
+						'options' => array(
+							'fruttato'    => 'Fruttato',
+							'floreale'    => 'Floreale',
+							'luppolato'   => 'Luppolato',
+							'resinoso'    => 'Resinoso',
+							'alcolico'    => 'Alcolico/Solvente',
+							'malto'       => 'Malto',
+							'caramello'   => 'Caramello',
+							'tostato'     => 'Tostato/Bruciato',
+							'acido'       => 'Acido',
+							'dolce'       => 'Dolce',
+							'amaro'       => 'Amaro',
+							'astringente' => 'Astringente',
+						),
+						'inline'  => 1,
+					),
+					array(
+						'id'   => $prefix.'prezzo_birra',
+						'type' => 'text',
+						'name' => 'Costo birra',
+						'desc' => 'A quanto vendiamo quella birra? Senza simboli',
+						'clone'      => 1,
+						'sort_clone' => true,
+						'step' => '0.1',
+					),
+					array(
+						'id'   => $prefix.'disponibilita',
+						'name' => 'Disponibilità',
+						'type' => 'checkbox',
+						'desc' => 'Disponibile o no?',
+						'std'  => 1,
+					),
+					array(
+						'id'      => $prefix.'formato_birra',
+						'name'    => 'Formati disponibili',
+						'type'    => 'checkbox_list',
+						'desc'    => 'Che formati sono disponibili?',
+						'options' => array(
+							'33cl'   => '33cl',
+							'375cl'  => '37.5cl',
+							'50cl'   => '50cl',
+							'75cl'   => '75cl',
+							'magnum' => 'Magnum',
+							'bgb'    => 'BGB',
+							'fusto'  => 'Fusto',
+						),
+						'inline'  => 1,
+					),
+					array(
+						'id'          => $prefix.'quantita_birra',
+						'type'        => 'text',
+						'name'        => 'Quantità birra',
+						'desc'        => 'Quante ne hai in magazzino o cella?',
+						'placeholder' => 'Quante ne hai?',
+						'clone'      => 1,
+						'sort_clone' => true,
+						'step' => '0.1',
+					),
+					array(
+						'id'         => $prefix.'annata_birra',
+						'type'       => 'number',
+						'name'       => 'Annata birra',
+						'desc'       => 'Di che annate sono le birre che hai?',
+						'clone'      => 1,
+						'sort_clone' => true,
+					),
+					array(
+						'id'   => $prefix.'img_low_res',
+						'type' => 'single_image',
+						'name' => 'Immagine a bassa qualità',
+						'desc' => 'Carica qui l\'immagine a bassa qualità',
+					),
+					array(
+						'id'   => $prefix.'img_high_res',
+						'type' => 'single_image',
+						'name' => 'Immagine alta qualità',
+						'desc' => 'Carica qui l\'immagine ad alta qualità',
+					),
+					array(
+						'id' => $prefix . 'descrizione',
+						'type' => 'textarea',
+						'name' => esc_html__( 'Descrizione birra', 'et-2018-template' ),
+					),
+				),
+			),
 		),
 	);
 
@@ -1013,5 +1158,148 @@ add_filter( 'rwmb_meta_boxes', function ( $meta_boxes ) {
 	}
 
 	/*
-	 * Caricare script Async
+	 * Mostrare subCategory
+	 */
+	function et2018_subcats_from_parentcat_by_ID( $parent_cat_ID ) {
+
+		$args = array(
+
+			'hierarchical' => 1,
+
+			'show_option_none' => '',
+
+			'hide_empty' => 0,
+
+			'parent' => $parent_cat_ID,
+
+			'taxonomy' => 'category'
+
+		);
+
+		$subcats = get_categories( $args );
+
+		echo '<ul class="wooc_sclist">';
+
+		foreach ( $subcats as $sc ) {
+
+			$link = get_term_link( $sc->slug, $sc->taxonomy );
+
+			echo '<li><a href="' . $link . '">' . $sc->name . '</a></li>';
+
+		}
+
+		echo '</ul>';
+
+	};
+
+	function et2018_subcats_from_parentcat_by_NAME( $parent_cat_NAME ) {
+
+		$IDbyNAME = get_term_by( 'name', $parent_cat_NAME, 'category' );
+
+		$product_cat_ID = $IDbyNAME->term_id;
+
+		$args = array(
+
+			'hierarchical' => 1,
+
+			'show_option_none' => '',
+
+			'hide_empty' => 0,
+
+			'parent' => $product_cat_ID,
+
+			'taxonomy' => 'category'
+
+		);
+
+		$subcats = get_categories( $args );
+
+		echo '<ul class="wooc_sclist">';
+
+		foreach ( $subcats as $sc ) {
+
+			$link = get_term_link( $sc->slug, $sc->taxonomy );
+
+			echo '<li><a href="' . $link . '">' . $sc->name . '</a></li>';
+			$catquery = new WP_Query( 'category_name=' . $sc->name . '&&posts_per_page=-1&&nopaging=true&&orderby=title&&order=asc' );
+			$et_npb   = 0;
+			if ( $catquery->have_posts() ) : while ( $catquery->have_posts() ) : $catquery->the_post();
+				/*
+				 * Caricamento Variabili
+				 */
+				global $post;
+				$passaggiocantina = get_post_meta( $post->ID, 'gruppo_cantina', true );
+				if ( isset( $passaggiocantina['et2018-disponibilita'] ) ) {
+
+					if ( isset( $passaggiocantina['et2018-nome_birra'] ) ) {
+						$birra = $passaggiocantina['et2018-nome_birra'];
+					};
+					if ( isset( $passaggiocantina['et2018-nome_birrificio'] ) ) {
+						$birrificio = $passaggiocantina['et2018-nome_birrificio'];
+					};
+					if ( isset( $passaggiocantina['et2018-gradazione'] ) ) {
+						$gradazione = $passaggiocantina['et2018-gradazione'];
+					};
+					if ( isset( $passaggiocantina['et2018-stile_birra'] ) ) {
+						$stile = $passaggiocantina['et2018-stile_birra'];
+					};
+					if ( isset( $passaggiocantina['et2018-gusto_prevalente'] ) ) {
+						$gusto = $passaggiocantina['et2018-gusto_prevalente'];
+					};
+					if ( isset( $passaggiocantina['et2018-gusto_descrittori'] ) ) {
+						$descrittore = $passaggiocantina['et2018-gusto_descrittori'];
+					};
+					if ( isset( $passaggiocantina['et2018-prezzo_birra'] ) ) {
+						$prezzo = $passaggiocantina['et2018-prezzo_birra'];
+					};
+					if ( isset( $passaggiocantina['et2018-formato_birra'] ) ) {
+						$formato = $passaggiocantina['et2018-formato_birra'];
+					};
+					if ( isset( $passaggiocantina['et2018-quantita_birra'] ) ) {
+						$quantita = $passaggiocantina['et2018-quantita_birra'];
+					};
+					if ( isset( $passaggiocantina['et2018-img_low_res'] ) ) {
+						$imglow = $passaggiocantina['et2018-img_low_res'];
+					};
+					if ( isset( $passaggiocantina['et2018-img_high_res'] ) ) {
+						$imghigh = $passaggiocantina['et2018-img_high_res'];
+					};
+					if ( isset( $passaggiocantina['et2018-descrizione'] ) ) {
+						$descrizione = $passaggiocantina['et2018-descrizione'];
+					};
+					/*
+			        * Fine variabili if disponibile escluso
+			        */
+					echo '<div class="row cantina">';
+					etimue2018_edit_link();?>
+					<div class="col">
+						<p><?php if (isset ($birra)){echo $birra;};?></p>
+						<p><?php if (isset ($birrificio)){echo $birrificio;};?></p>
+						<p><?php if (isset ($gradazione)){echo $gradazione;};?></p>
+						<p><?php if (isset ($stile)){echo $stile;};?></p>
+						<p><?php if (isset ($gusto)){echo $gusto;};?></p>
+						<p><?php if (isset ($descrittore)){
+							foreach ($descrittore as $descrittori) echo "<li>".$descrittori."</li>";};?></p>
+						<p><?php if (isset ($prezzo)){
+							foreach ($prezzo as $prezzi) echo $prezzi;};?></p>
+						<p><?php if (isset ($formato)){
+							foreach ($formato as $formati) echo $formati;};?></p>
+						<p><?php if (isset ($quantita)){
+							foreach ($quantita as $quanti)echo $quanti;};?></p>
+						<p><?php if (isset ($imglow)){echo $imglow;};?></p>
+						<p><?php if (isset ($imghigh)){echo $imghigh;};?></p>
+						<p><?php if (isset ($descrizione)){echo $descrizione;};?></p>
+					</div>
+				<?php echo "</div><!-- .row .cantina -->";
+				};/* se disponbile setta le variabili e mostra il post */
+				wp_reset_postdata();
+			endwhile;
+			endif;
+		}
+
+		echo '</ul>';
+
+	};
+	/*
+	 * TODO Dare stile alla pagina
 	 */
