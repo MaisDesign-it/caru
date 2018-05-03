@@ -460,7 +460,7 @@
 			wp_enqueue_script( 'et-bootstrap', "//maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js", 'et-popper', '1.0.0.3', true );
 			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js#asyncload",'iubendapersonal','1.0.0.2',true);
 			wp_enqueue_script('iubendapersonal',get_theme_file_uri( '/js/iubenda.js#asyncload'),'jquery','1.0.0.2',true);
-			wp_enqueue_script('cantinascript',get_theme_file_uri( '/js/cantina.js'),'et-bootstrap','1.0.0.3',true);
+			wp_enqueue_script('cantinascript',get_theme_file_uri( '/js/cantina.js'),'et-bootstrap','1.0.0.4',true);
 		}else {
 			wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css' ) );
 			wp_enqueue_style( 'not-not-homepage', get_theme_file_uri( '/css/bootstrap-grid.min.css' ) );
@@ -641,104 +641,14 @@
 	 *  Register custom navigation walker
 	 */
 	require_once get_template_directory() . '/template-parts/nav/class-wp-bootstrap-navwalker.php';
+
 	/**
-	 *
-	 * Aggiungi Disponibilità nel Quick Edit
+	 * Registra admin columns VECCHIO METODO
 	 */
-
-	function etdispo_quickedit_custom_posts_columns( $posts_columns ) {
-		$posts_columns['et2018-quantita_birra'] = __( 'Disponibilità', 'etdispo' );
-		return $posts_columns;
-	}
-	add_filter( 'manage_post_posts_columns', 'etdispo_quickedit_custom_posts_columns' );
-
-	function etdispo_quickedit_custom_column_display( $column_name, $post_id ) {
-		if ( 'et2018-quantita_birra' == $column_name ) {
-			$etdispo_regi = get_post_meta( $post_id, 'et2018-quantita_birra', true );
-
-			if ( $etdispo_regi ) {
-				echo esc_html( $etdispo_regi );
-			} else {
-				esc_html_e( 'N/A', 'etdispo' );
-			}
-		}
-	}
-	add_action( 'manage_post_posts_custom_column', 'etdispo_quickedit_custom_column_display', 10, 2 );
-
-	function etdispo_quickedit_fields( $column_name, $post_type, $post_id ) {
-		if ( 'et2018-quantita_birra' != $column_name )
-			return;
-// TODO sistemare colonna disponibilitàs
-		$etdispo_regi = get_post_meta( $post_id, 'et2018-quantita_birra', true );
-		?>
-		<fieldset class="inline-edit-col-right">
-			<div class="inline-edit-col">
-				<label>
-					<span class="title"><?php esc_html_e( 'Disponibilità', 'etdispo' ); ?></span>
-					<span class="input-text-wrap">
-                    <input type="text" name="et2018-quantita_birra" class="etdispoedit" value="">
-                </span>
-				</label>
-			</div>
-		</fieldset>
-		<?php
-	}
-	add_action( 'quick_edit_custom_box', 'etdispo_quickedit_fields', 10, 3 );
-	function etdispo_quickedit_save_post( $post_id, $post ) {
-		// if called by autosave, then bail here
-		if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE )
-			return;
-
-		// if this "post" post type?
-		if ( $post->post_type != 'post' )
-			return;
-
-		// does this user have permissions?
-		if ( ! current_user_can( 'edit_post', $post_id ) )
-			return;
-
-		// update!
-		if ( isset( $_POST['et2018-quantita_birra'] ) ) {
-			update_post_meta( $post_id, 'et2018-quantita_birra', $_POST['et2018-quantita_birra'] );
-		}
-	}
-	add_action( 'save_post', 'etdispo_quickedit_save_post', 10, 2 );
-
-	function etdispo_quickedit_javascript() {
-		$current_screen = get_current_screen();
-		if ( $current_screen->id != 'edit-post' || $current_screen->post_type != 'post' )
-			return;
-
-		// Ensure jQuery library loads
-		wp_enqueue_script( 'jquery' );
-		?>
-		<script type="text/javascript">
-            jQuery( function( $ ) {
-                $( '#the-list' ).on( 'click', 'a.editinline', function( e ) {
-                    e.preventDefault();
-                    var editDispo = $(this).data( 'edit-dispo' );
-                    inlineEditPost.revert();
-                    $( '.etdispoedit' ).val( editDispo ? editDispo : '' );
-                });
-            });
-		</script>
-		<?php
-	}
-	add_action( 'admin_print_footer_scripts-edit.php', 'etdispo_quickedit_javascript' );
-	/* Qui */
-	function etdispo_quickedit_set_data( $actions, $post ) {
-		$found_value = get_post_meta( $post->ID, 'et2018-quantita_birra', true );
-
-		if ( $found_value ) {
-			if ( isset( $actions['inline hide-if-no-js'] ) ) {
-				$new_attribute = sprintf( 'data-edit-dispo="%s"', esc_attr( $found_value ) );
-				$actions['inline hide-if-no-js'] = str_replace( 'class=', "$new_attribute class=", $actions['inline hide-if-no-js'] );
-			}
-		}
-
-		return $actions;
-	}
-	add_filter('post_row_actions', 'etdispo_quickedit_set_data', 10, 2);
+	//	require_once get_template_directory() . '/template-parts/admin/customcolumn-vecchio.php';
+	/**
+	 * Registra admin columns Nuovo METODO
+	 */
 
 	/**
 	 * MetaBox personalizzati
@@ -933,36 +843,6 @@ add_filter( 'rwmb_meta_boxes', function ( $meta_boxes ) {
 						'desc' => 'Disponibile o no?',
 						'std'  => 0,
 					),
-					/*
-					 * TODO ragionare se è una follia aggiungere gli ingredienti così
-					 *array(
-						'name'    => 'Ingredienti',
-						'id'      => $prefix.'field_id',
-						'type'    => 'autocomplete',
-						// Options of autocomplete, in format 'value' => 'Label'
-						'options' => array(
-							'hamburger 250g'             => 'Hamburger 250g',
-							'bacon'                      => 'Bacon',
-							'cipolla caramellata'        => 'Cipolla caramellata',
-							'scamorza affumicata'        => 'Scamorza affumicata',
-							'lattuga'                    => 'Lattuga',
-							'pomodoro'                   => 'Pomodoro',
-							'salsa BBQ'                  => 'Salsa BBQ',
-							'burrata'                    => 'Burrata',
-							'radicchio'                  => 'Radicchio',
-							'senape'                     => 'Senape',
-							'pepato'                     => 'Pepato',
-							'pesto alla genovese'        => 'Pesto alla genovese',
-							'noccioline'                 => 'Noccioline',
-							'gherigli di noci'           => 'Gherigli di noci',
-							'rucola'                     => 'Rucola',
-							'salsiccia 200g'             => 'Salsiccia 200g',
-							'pomodori secchi'            => 'Pomodori secchi',
-							'cavolo nero'                => 'Cavolo nero',
-							'maionese'                   => 'Radicchio',
-						),
-					)
-					*/
 				),
 			),
 			/* Gruppo Cantina */
@@ -1113,6 +993,9 @@ add_filter( 'rwmb_meta_boxes', function ( $meta_boxes ) {
 
 	return $meta_boxes;
 } );
+	/**
+	 * Fine Metabox personalizzati
+	 */
 
 	/*
 	 * Template per i post singoli
@@ -1214,92 +1097,139 @@ add_filter( 'rwmb_meta_boxes', function ( $meta_boxes ) {
 
 		$subcats = get_categories( $args );
 
-		echo '<ul class="wooc_sclist">';
+		echo '<div id="accordion">';
 
 		foreach ( $subcats as $sc ) {
 
 			$link = get_term_link( $sc->slug, $sc->taxonomy );
+			if ($sc->category_count > 0) {;?>
+                    <div class="card">
+                        <div class="card-header" id="heading<?php echo $sc->slug;?>">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse<?php echo $sc->slug;?>" aria-expanded="true" aria-controls="collapse<?php echo $sc->slug;?>">
+									<?php echo $sc->name;?>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse<?php echo $sc->slug;?>" class="collapse show" aria-labelledby="heading<?php echo $sc->slug;?>" data-parent="#accordion">
+                            <div class="card-body">
+					<?php $catquery = new WP_Query( 'category_name=' . $sc->name . '&&posts_per_page=-1&&nopaging=true&&orderby=title&&order=asc' );
+					$et_npb   = 0;
+					if ( $catquery->have_posts() ) : while ( $catquery->have_posts() ) : $catquery->the_post();
+						/*
+						 * Caricamento Variabili
+						 */
+						global $post;
+						$passaggiocantina = get_post_meta( $post->ID, 'gruppo_cantina', true );
+						if ( isset( $passaggiocantina['et2018-disponibilita'] ) ) {
 
-			echo '<li><a href="' . $link . '">' . $sc->name . '</a></li>';
-			$catquery = new WP_Query( 'category_name=' . $sc->name . '&&posts_per_page=-1&&nopaging=true&&orderby=title&&order=asc' );
-			$et_npb   = 0;
-			if ( $catquery->have_posts() ) : while ( $catquery->have_posts() ) : $catquery->the_post();
-				/*
-				 * Caricamento Variabili
-				 */
-				global $post;
-				$passaggiocantina = get_post_meta( $post->ID, 'gruppo_cantina', true );
-				if ( isset( $passaggiocantina['et2018-disponibilita'] ) ) {
+							if ( isset( $passaggiocantina['et2018-nome_birra'] ) ) {
+								$birra = $passaggiocantina['et2018-nome_birra'];
+							};
+							if ( isset( $passaggiocantina['et2018-nome_birrificio'] ) ) {
+								$birrificio = $passaggiocantina['et2018-nome_birrificio'];
+							};
+							if ( isset( $passaggiocantina['et2018-gradazione'] ) ) {
+								$gradazione = $passaggiocantina['et2018-gradazione'];
+							};
+							if ( isset( $passaggiocantina['et2018-stile_birra'] ) ) {
+								$stile = $passaggiocantina['et2018-stile_birra'];
+							};
+							if ( isset( $passaggiocantina['et2018-gusto_prevalente'] ) ) {
+								$gusto = $passaggiocantina['et2018-gusto_prevalente'];
+							};
+							if ( isset( $passaggiocantina['et2018-gusto_descrittori'] ) ) {
+								$descrittore = $passaggiocantina['et2018-gusto_descrittori'];
+							};
+							if ( isset( $passaggiocantina['et2018-prezzo_birra'] ) ) {
+								$prezzo = $passaggiocantina['et2018-prezzo_birra'];
+							};
+							if ( isset( $passaggiocantina['et2018-formato_birra'] ) ) {
+								$formato = $passaggiocantina['et2018-formato_birra'];
+							};
+							if ( isset( $passaggiocantina['et2018-quantita_birra'] ) ) {
+								$quantita = $passaggiocantina['et2018-quantita_birra'];
+							};
+							if ( isset( $passaggiocantina['et2018-img_low_res'] ) ) {
+								$imglow = $passaggiocantina['et2018-img_low_res'];
+							};
+							if ( isset( $passaggiocantina['et2018-img_high_res'] ) ) {
+								$imghigh = $passaggiocantina['et2018-img_high_res'];
+							};
+							if ( isset( $passaggiocantina['et2018-descrizione'] ) ) {
+								$descrizione = $passaggiocantina['et2018-descrizione'];
+							};
+							/*
+							* Fine variabili if disponibile escluso
+							*/;?>
+						<div class="row cantina">
+							<div class="col">
+								<div class="row internalaccordion">
+									<div class="col cantinaimage">
+								<?php etimue2018_edit_link(); ?>
+								<?php if ( (isset ( $imglow ))|| (isset ( $imghigh ))) {;?>
+									<img class="lazyload rounded-circle"
+									     src="<?php echo wp_get_attachment_image_url( $imglow,'etimue2018-thumbnail-avatar' );?>"
+									     data-src="<?php echo wp_get_attachment_image_url( $imghigh,'etimue2018-thumbnail-avatar' );?>"
+									     height="100" width="100"
+									     alt="<?php echo $birra;?>"
+									/>
+								<?php }; ?><!-- if ( (isset ( $imglow ))|| (isset ( $imghigh ))) -->
+									</div><!-- .cantinaimage -->
+									<div class="col caratteristichecantina">
+								<p><?php if ( isset ( $birra ) ) {
+										echo $birra;
+									}; ?></p>
+								<p><?php if ( isset ( $birrificio ) ) {
+										echo $birrificio;
+									}; ?></p>
+								<p><?php if ( isset ( $gradazione ) ) {
+										echo $gradazione;
+									}; ?></p>
+								<p><?php if ( isset ( $stile ) ) {
+										echo $stile;
+									}; ?></p>
+								<p><?php if ( isset ( $gusto ) ) {
+										echo $gusto;
+									}; ?></p>
+								<p><?php if ( isset ( $descrittore ) ) {
+										foreach ( $descrittore as $descrittori ) {
+											echo "<li>" . $descrittori . "</li>";
+										}
+									}; ?></p>
+								<p><?php if ( isset ( $prezzo ) ) {
+										foreach ( $prezzo as $prezzi ) {
+											echo $prezzi;
+										}
+									}; ?></p>
+								<p><?php if ( isset ( $formato ) ) {
+										foreach ( $formato as $formati ) {
+											echo $formati;
+										}
+									}; ?></p>
+								<p><?php if ( isset ( $quantita ) ) {
+										foreach ( $quantita as $quanti ) {
+											echo $quanti;
+										}
+									}; ?></p>
+								<p><?php if ( isset ( $descrizione ) ) {
+										echo $descrizione;
+									}; ?></p>
+									</div><!-- .caratteristichecantina -->
+								</div><!-- .internalaccordion -->
+							</div><!-- .col -->
+						</div><!-- .row .cantina -->
+						<?php };/* se disponbile setta le variabili e mostra il post */
+						wp_reset_postdata();
+					endwhile;
+					endif;?>
+					</div><!-- .row .cantina -->
+                        </div><!-- .card-body -->
 
-					if ( isset( $passaggiocantina['et2018-nome_birra'] ) ) {
-						$birra = $passaggiocantina['et2018-nome_birra'];
-					};
-					if ( isset( $passaggiocantina['et2018-nome_birrificio'] ) ) {
-						$birrificio = $passaggiocantina['et2018-nome_birrificio'];
-					};
-					if ( isset( $passaggiocantina['et2018-gradazione'] ) ) {
-						$gradazione = $passaggiocantina['et2018-gradazione'];
-					};
-					if ( isset( $passaggiocantina['et2018-stile_birra'] ) ) {
-						$stile = $passaggiocantina['et2018-stile_birra'];
-					};
-					if ( isset( $passaggiocantina['et2018-gusto_prevalente'] ) ) {
-						$gusto = $passaggiocantina['et2018-gusto_prevalente'];
-					};
-					if ( isset( $passaggiocantina['et2018-gusto_descrittori'] ) ) {
-						$descrittore = $passaggiocantina['et2018-gusto_descrittori'];
-					};
-					if ( isset( $passaggiocantina['et2018-prezzo_birra'] ) ) {
-						$prezzo = $passaggiocantina['et2018-prezzo_birra'];
-					};
-					if ( isset( $passaggiocantina['et2018-formato_birra'] ) ) {
-						$formato = $passaggiocantina['et2018-formato_birra'];
-					};
-					if ( isset( $passaggiocantina['et2018-quantita_birra'] ) ) {
-						$quantita = $passaggiocantina['et2018-quantita_birra'];
-					};
-					if ( isset( $passaggiocantina['et2018-img_low_res'] ) ) {
-						$imglow = $passaggiocantina['et2018-img_low_res'];
-					};
-					if ( isset( $passaggiocantina['et2018-img_high_res'] ) ) {
-						$imghigh = $passaggiocantina['et2018-img_high_res'];
-					};
-					if ( isset( $passaggiocantina['et2018-descrizione'] ) ) {
-						$descrizione = $passaggiocantina['et2018-descrizione'];
-					};
-					/*
-			        * Fine variabili if disponibile escluso
-			        */
-					echo '<div class="row cantina">';
-					etimue2018_edit_link();?>
-					<div class="col">
-						<p><?php if (isset ($birra)){echo $birra;};?></p>
-						<p><?php if (isset ($birrificio)){echo $birrificio;};?></p>
-						<p><?php if (isset ($gradazione)){echo $gradazione;};?></p>
-						<p><?php if (isset ($stile)){echo $stile;};?></p>
-						<p><?php if (isset ($gusto)){echo $gusto;};?></p>
-						<p><?php if (isset ($descrittore)){
-							foreach ($descrittore as $descrittori) echo "<li>".$descrittori."</li>";};?></p>
-						<p><?php if (isset ($prezzo)){
-							foreach ($prezzo as $prezzi) echo $prezzi;};?></p>
-						<p><?php if (isset ($formato)){
-							foreach ($formato as $formati) echo $formati;};?></p>
-						<p><?php if (isset ($quantita)){
-							foreach ($quantita as $quanti)echo $quanti;};?></p>
-						<p><?php if (isset ($imglow)){echo $imglow;};?></p>
-						<p><?php if (isset ($imghigh)){echo $imghigh;};?></p>
-						<p><?php if (isset ($descrizione)){echo $descrizione;};?></p>
-					</div>
-				<?php echo "</div><!-- .row .cantina -->";
-				};/* se disponbile setta le variabili e mostra il post */
-				wp_reset_postdata();
-			endwhile;
-			endif;
-		}
-
-		echo '</ul>';
-
-	};
+				<?php };//if ($sc->category_count > 0) { ?>
+			</div><!-- .card -->
+			<?php };//foreach $subcats as $sc ?>
+	<?php };//et2018 byName
 	/*
 	 * TODO Dare stile alla pagina
-	 */
+	 */;?>
