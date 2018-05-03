@@ -3,6 +3,6 @@
 	Template Name: Cantina
 	*/
 ?>
-	<?php get_header();?>
-
-<?php get_footer();?>
+<?php get_header();
+get_template_part('template-parts/cantina/cantina','loop');
+get_footer();?>

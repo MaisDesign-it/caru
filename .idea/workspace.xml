@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3937bef-6cb4-4be0-8346-aadcdf50478b" name="Default" comment="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Riscritta e spostata pagina cantina">
-      <change afterPath="$PROJECT_DIR$/css/specifici/cantina.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/cantina.php" afterDir="false" />
+    <list default="true" id="e3937bef-6cb4-4be0-8346-aadcdf50478b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/js/cantina.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cantina.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/cantina.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/cantina.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/cantina/cantina-loop.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/cantina/cantina-loop.php" afterDir="false" />
     </list>
     <ignored mask="*.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,34 +19,38 @@
   <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="basichome2018.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basichome2018.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cantina.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-parts/cantina.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="68">
+              <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cantina.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/specifici/cantina.css">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="cibo-selettore.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php">
+      <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/post/content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="357">
+              <caret line="30" column="46" selection-start-line="21" selection-start-column="8" selection-end-line="30" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cantina-loop.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/cantina/cantina-loop.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="23" column="231" selection-start-line="23" selection-start-column="231" selection-end-line="23" selection-end-column="231" />
             </state>
           </provider>
         </entry>
@@ -54,17 +58,8 @@
       <file leaf-file-name="area-piattiunici.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-piattiunici.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="area-tagliere.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-tagliere.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="45" column="22" selection-start-line="43" selection-start-column="16" selection-end-line="45" selection-end-column="22" />
+            <state relative-caret-position="153">
+              <caret line="9" column="5" selection-end-line="55" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -78,20 +73,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainstyle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/mainstyle.css">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret column="94001" selection-end-line="114" selection-end-column="21697" />
+            <state relative-caret-position="272">
+              <caret line="424" column="63" selection-start-line="424" selection-start-column="63" selection-end-line="424" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/functions.php">
+      <file leaf-file-name="page-menucibo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/page-menucibo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="447" column="107" selection-start-line="447" selection-start-column="107" selection-end-line="447" selection-end-column="107" />
+            <state relative-caret-position="68">
+              <caret line="4" column="3" lean-forward="true" selection-end-line="6" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cantina.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/cantina.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="35" selection-start-column="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -99,7 +103,7 @@
       <file leaf-file-name="page-menucibo-actual.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/specifici/page-menucibo-actual.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
+            <state relative-caret-position="31178">
               <caret line="1834" column="1" selection-start-line="1834" selection-start-column="1" selection-end-line="1834" selection-end-column="1" />
             </state>
           </provider>
@@ -111,17 +115,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="WordPress Main Plugin File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>loading.gif</find>
-      <find>tooltip</find>
-      <find>enqueue_scr</find>
-      <find>tooltip-inner</find>
       <find>inner</find>
       <find>bootstrap</find>
       <find>navigation</find>
@@ -148,6 +148,10 @@
       <find>h1</find>
       <find>etimuè pub bi</find>
       <find>actual</find>
+      <find>edit</find>
+      <find>et2018-</find>
+      <find>.js</find>
+      <find>enqueue_s</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -190,9 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/mobilehome.css" />
-        <option value="$PROJECT_DIR$/css/homeshortcss.css" />
-        <option value="$PROJECT_DIR$/et2018.php" />
         <option value="$PROJECT_DIR$/trovami.js" />
         <option value="$PROJECT_DIR$/template-parts/header/header-navbar.php" />
         <option value="$PROJECT_DIR$/css/specifici/taplist.css" />
@@ -240,6 +241,9 @@
         <option value="$PROJECT_DIR$/cantina.php" />
         <option value="$PROJECT_DIR$/css/specifici/cantina.css" />
         <option value="$PROJECT_DIR$/template-parts/cantina/cantina.php" />
+        <option value="$PROJECT_DIR$/template-parts/cantina.php" />
+        <option value="$PROJECT_DIR$/template-parts/cantina/cantina-loop.php" />
+        <option value="$PROJECT_DIR$/js/cantina.js" />
         <option value="$PROJECT_DIR$/functions.php" />
       </list>
     </option>
@@ -292,6 +296,11 @@
               <item name="caru" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="specifici" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caru" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="caru" type="b2602c69:ProjectViewProjectNode" />
@@ -579,7 +588,8 @@
       <workItem from="1525183719475" duration="468000" />
       <workItem from="1525194290538" duration="2069000" />
       <workItem from="1525260021520" duration="1357000" />
-      <workItem from="1525290663260" duration="3203000" />
+      <workItem from="1525290663260" duration="5980000" />
+      <workItem from="1525304270065" duration="2493000" />
     </task>
     <task id="LOCAL-00001" summary="Primo upload">
       <created>1524173623900</created>
@@ -812,11 +822,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525291903646</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Riscritta e spostata pagina cantina">
+      <created>1525299159512</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1525299159512</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="383859000" />
+    <option name="totallyTimeSpent" value="389129000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -910,7 +927,8 @@
     <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey" />
     <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css" />
     <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?" />
+    <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Riscritta e spostata pagina cantina" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Riscritta e spostata pagina cantina" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\wamp64\www\wordpress</wordpressPath>
@@ -921,27 +939,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="127" selection-start-line="7" selection-start-column="127" selection-end-line="7" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/mobilehome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret column="10584" selection-end-column="18149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/et2018.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/header/header-navbar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1009,13 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="18" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/page-menucibo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -1215,20 +1205,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-unici.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-piattiunici.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-unici.php" />
     <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-tagliere.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -1238,20 +1215,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/mainstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
+        <state relative-caret-position="1598">
           <caret column="94001" selection-end-line="114" selection-end-column="21697" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/specifici/page-menucibo-actual.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
+        <state relative-caret-position="31178">
           <caret line="1834" column="1" selection-start-line="1834" selection-start-column="1" selection-end-line="1834" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/specifici/cantina.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/page-menucibo.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1260,17 +1234,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-piattiunici.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" selection-end-line="55" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/post/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="46" selection-start-line="21" selection-start-column="8" selection-end-line="30" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/cantina/cantina-loop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="23" column="231" selection-start-line="23" selection-start-column="231" selection-end-line="23" selection-end-column="231" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/cantina.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="68">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/page-menucibo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/cantina.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="447" column="107" selection-start-line="447" selection-start-column="107" selection-end-line="447" selection-end-column="107" />
+        <state relative-caret-position="272">
+          <caret line="424" column="63" selection-start-line="424" selection-start-column="63" selection-end-line="424" selection-end-column="63" />
         </state>
       </provider>
     </entry>

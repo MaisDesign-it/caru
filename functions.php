@@ -412,6 +412,17 @@
 	<?php }
 	add_action( 'wp_head', 'etimue2018_colors_css_wrap' );
 
+	// Async load
+	function ikreativ_async_scripts($url)
+	{
+		if ( strpos( $url, '#asyncload') === false )
+			return $url;
+		else if ( is_admin() )
+			return str_replace( '#asyncload', '', $url );
+		else
+			return str_replace( '#asyncload', '', $url )."' async='async";
+	}
+	add_filter( 'clean_url', 'ikreativ_async_scripts', 11, 1 );
 	/**
 	 * Enqueue scripts and styles.
 	 */
@@ -424,7 +435,7 @@
 			wp_enqueue_style( 'carousel-homepage', get_theme_file_uri( '/css/carousel-1.css' ) );
 			wp_enqueue_style( 'grid', get_theme_file_uri( '/css/bootstrap-grid.min.css' ) );
 			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js",'iubendapersonal','1.0',true);
-			wp_enqueue_script('iubendapersonal',get_theme_file_uri( '/js/iubenda.js'),'jquery','1.0',true);
+			wp_enqueue_script('iubendapersonal',get_theme_file_uri( '/js/iubenda.js#asyncload'),'jquery','1.0',true);
 		}elseif ( is_page_template( 'taplist.php' ) ) {
 			//wp_enqueue_style( 'taplist', get_theme_file_uri( '/css/specifici/taplist.css' ) );
 			wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css' ) );
@@ -443,12 +454,13 @@
 			wp_enqueue_script( 'iubendapersonal', get_theme_file_uri( '/js/iubenda.js' ), 'jquery', '1.0', true );
 		}elseif (is_page_template('template-parts/cantina.php')){
 			wp_enqueue_style('cantinaccordion',get_theme_file_uri('css/specifici/cantina.css'),'','1.0');
-			wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css' ) );
-			wp_enqueue_script( 'et-popper', "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js", 'jquery', '1.0', true );
-			wp_enqueue_script( 'et-lazy', get_theme_file_uri( '/js/lazyload.js' ), 'jquery', '1.0', true );
-			wp_enqueue_script( 'et-bootstrap', "//maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js", 'jquery', '1.0', true );
-			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js",'iubendapersonal','1.0',true);
-			wp_enqueue_script('iubendapersonal',get_theme_file_uri( '/js/iubenda.js'),'jquery','1.0',true);
+			wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css'),'','1.0.0.1'  );
+			wp_enqueue_script( 'et-popper', "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js#asyncload", 'jquery', '1.0.0.1', true );
+			wp_enqueue_script( 'et-lazy', get_theme_file_uri( '/js/lazyload.js#asyncload' ), 'jquery', '1.0.0.1', true );
+			wp_enqueue_script( 'et-bootstrap', "//maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js#asyncload", 'jquery', '1.0.0.1', true );
+			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js#asyncload",'iubendapersonal','1.0.0.1',true);
+			wp_enqueue_script('iubendapersonal',get_theme_file_uri( '/js/iubenda.js#asyncload'),'jquery','1.0.0.1',true);
+			wp_enqueue_script('cantinascript',get_theme_file_uri( '/js/cantina.js#asyncload'),'jquery','1.0.0.1',true);
 		}else {
 			wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css' ) );
 			wp_enqueue_style( 'not-not-homepage', get_theme_file_uri( '/css/bootstrap-grid.min.css' ) );
@@ -999,3 +1011,7 @@ add_filter( 'rwmb_meta_boxes', function ( $meta_boxes ) {
 			'ajaxurl' => admin_url( 'admin-ajax.php' )
 		));
 	}
+
+	/*
+	 * Caricare script Async
+	 */
