@@ -649,7 +649,11 @@
 	/**
 	 * Registra admin columns Nuovo METODO
 	 */
-
+	add_action( 'admin_init', 'et2018_add_custom_columns', 20 );
+	function et2018_add_custom_columns() {
+		require_once get_template_directory() . '/template-parts/admin/customcolumn-nuovo.php';
+		new et2018_Custom_Admin_Columns( 'post', array() );
+	}
 	/**
 	 * MetaBox personalizzati
 	 */

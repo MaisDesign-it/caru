@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3937bef-6cb4-4be0-8346-aadcdf50478b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/template-parts/admin/customcolumn-nuovo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/admin/customcolumn-vecchio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/cantina.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/cantina.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/admin/customcolumn-nuovo.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/admin/customcolumn-nuovo.php" afterDir="false" />
     </list>
     <ignored mask="*.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +37,7 @@
       <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-parts/post/content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="187">
               <caret line="28" column="43" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="43" />
             </state>
           </provider>
@@ -75,8 +72,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="961" column="40" selection-start-line="961" selection-start-column="40" selection-end-line="961" selection-end-column="40" />
+            <state relative-caret-position="204">
+              <caret line="655" column="5" lean-forward="true" selection-start-line="648" selection-start-column="4" selection-end-line="655" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -84,8 +81,8 @@
       <file leaf-file-name="customcolumn-nuovo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template-parts/admin/customcolumn-nuovo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            <state relative-caret-position="391">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -121,8 +118,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>thumb</find>
-      <find>gru</find>
       <find>page-menu</find>
       <find>thumbnail</find>
       <find>512</find>
@@ -151,6 +146,8 @@
       <find>et2018-disponibilita</find>
       <find>disponibilità</find>
       <find>disponibilita</find>
+      <find>column</find>
+      <find>et2018_Custom_Admin_Columns</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -663,7 +660,7 @@
       <workItem from="1525260021520" duration="1357000" />
       <workItem from="1525290663260" duration="5980000" />
       <workItem from="1525304270065" duration="12897000" />
-      <workItem from="1525358391393" duration="12759000" />
+      <workItem from="1525358391393" duration="14849000" />
     </task>
     <task id="LOCAL-00001" summary="Primo upload">
       <created>1524173623900</created>
@@ -917,11 +914,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525317452982</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Riscritta e spostata pagina cantina&#10;Aggiunto script js a cantina&#10;Commentata funzione per colonne personalizzate, in attesa di quella nuova.&#10;Dato stile di massima alla pagina cantina, da rivedere">
+      <created>1525388052937</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1525388052937</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="412292000" />
+    <option name="totallyTimeSpent" value="414382000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1017,7 +1021,8 @@
     <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?" />
     <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Riscritta e spostata pagina cantina" />
     <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Riscritta e spostata pagina cantina&#10;Aggiunto script js a cantina" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Riscritta e spostata pagina cantina&#10;Aggiunto script js a cantina" />
+    <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Riscritta e spostata pagina cantina&#10;Aggiunto script js a cantina&#10;Commentata funzione per colonne personalizzate, in attesa di quella nuova.&#10;Dato stile di massima alla pagina cantina, da rivedere" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Riscritta e spostata pagina cantina&#10;Aggiunto script js a cantina&#10;Commentata funzione per colonne personalizzate, in attesa di quella nuova.&#10;Dato stile di massima alla pagina cantina, da rivedere" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\wamp64\www\wordpress</wordpressPath>
@@ -1319,13 +1324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/post/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/cantina.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1337,16 +1335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/cantina/cantina-loop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
-          <folding>
-            <element signature="n#et2018_subcats_from_parentcat_by_NAMES#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1367,17 +1355,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/post/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/cantina/cantina-loop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+          <folding>
+            <element signature="n#et2018_subcats_from_parentcat_by_NAMES#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="961" column="40" selection-start-line="961" selection-start-column="40" selection-end-line="961" selection-end-column="40" />
+        <state relative-caret-position="204">
+          <caret line="655" column="5" lean-forward="true" selection-start-line="648" selection-start-column="4" selection-end-line="655" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/admin/customcolumn-nuovo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        <state relative-caret-position="391">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
