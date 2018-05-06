@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
 <head>
+	<?php $panini = get_post_meta($post->ID, 'gruppo_panini', true);
+		if (isset($panini['et2018-img_high_res'])){
+			$imghigh = $panini['et2018-img_high_res'];
+		}else{$imghigh = 0;};?>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<!-- <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/css/bootstrap.css';?>" /> -->
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/css/utility.css';?>" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<!-- Meta Vari -->
+	<meta name="title" content="<?php the_title();?>">
+	<meta name="description" content="<?php if (isset ($panini['et2018-descrizione'])){$descrizione = $panini['et2018-descrizione'];}; if (isset ($descrizione)){ echo $descrizione;}; ?>">
+	<meta name="keywords" content="piadina, piadina romagnola, piadina artigianale, hamburger, hamburger americani, bun, birra, birra artigianale, birra artigianale italian, acireale, catania, provincia di catania, piadineria, hamburgeria, birreria">
+	<meta name="robots" content="index, follow">
+	<meta name="language" content="Italian">
+	<meta name="revisit-after" content="7">
+	<meta name="author" content="Etimuè pub">
+	<title><?php the_title();?></title>
+	<meta name="google-site-verification" content="h32cUFD6gnkJOxLsO_xY9E_5n_TvnaVZGQg4YmvdAFk" />
+	<meta name="msvalidate.01" content="8A1B887846DC86A089999C214AF25456" />
+	<!-- Facebook Open Graph -->
+	<meta property="og:type" content="restaurant.restaurant">
+	<meta property="og:title" content="Etimuè Pub Birreria Acireale">
+	<meta property="og:url" content="etimue.it">
+	<meta property="og:description" content="<?php if (isset ($panini['et2018-descrizione'])){$descrizione = $panini['et2018-descrizione'];}; if (isset ($descrizione)){ echo $descrizione;}; ?>">
+	<meta property="og:image" content="<?php echo wp_get_attachment_image_url($imghigh);?>">
+	<meta property="restaurant:menu" content="https://etimue.it/menucibo/">
+	<meta property="restaurant:contact_info:website" content="etimue.it">
+	<meta property="restaurant:contact_info:street_address" content="via monsignor genuardi 28">
+	<meta property="restaurant:contact_info:locality" content="Acireale">
+	<meta property="restaurant:contact_info:region" content="CT">
+	<meta property="restaurant:contact_info:postal_code" content="95024">
+	<meta property="restaurant:contact_info:country_name" content="Italy">
+	<meta property="restaurant:contact_info:email" content="info@etimue.it">
+	<meta property="restaurant:contact_info:phone_number" content="0958363554">
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@etimue">
+	<meta name="twitter:title" content="<?php the_title();?>">
+	<meta name="twitter:description" content="<?php if (isset ($panini['et2018-descrizione'])){$descrizione = $panini['et2018-descrizione'];}; if (isset ($descrizione)){ echo $descrizione;}; ?>">
 
+	<meta name="twitter:image" content="<?php echo wp_get_attachment_image_url($imghigh);?>">
 </head>
 <body class="container">
 <?php /* TODO sistemare CSS */
@@ -16,7 +52,6 @@
 		<div class="row">
 			<div class="col">
 				<?php
-					$panini = get_post_meta($post->ID, 'gruppo_panini', true);
 					if (isset($panini['et2018-img_low_res'])){
 						$imglow = $panini['et2018-img_low_res'];
 					}

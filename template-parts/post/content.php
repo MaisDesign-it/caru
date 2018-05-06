@@ -30,7 +30,12 @@
 				};
 			echo '</div><!-- .entry-meta -->';
 		};
-
+			$passaggiocantina = get_post_meta( $post->ID, 'gruppo_cantina', true );
+			if ( isset( $passaggiocantina['et2018-disponibilita'] ) ) {$dispo = 1;}else{$dispo = 0;};
+			if (has_category('cantina')&& $dispo === 1){
+				get_template_part('template-parts/single/cantina','var');}
+			else{
+				echo 'Momentaneamente non dispobile';};
 		if ( is_single() ) {
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		} elseif ( is_front_page() && is_home() ) {
