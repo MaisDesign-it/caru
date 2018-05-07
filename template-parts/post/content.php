@@ -34,7 +34,7 @@
 			if ( isset( $passaggiocantina['et2018-disponibilita'] ) ) {$dispo = 1;}else{$dispo = 0;};
 			if (has_category('cantina')&& $dispo === 1){
 				get_template_part('template-parts/single/cantina','var');}
-			else{
+			elseif (has_category('cantina')&& $dispo === 0){
 				echo 'Momentaneamente non dispobile';};
 		if ( is_single() ) {
 			the_title( '<h1 class="entry-title">', '</h1>' );

@@ -1,25 +1,24 @@
 <?php
-/**
- * The header for our theme
- *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package WordPress
- * @subpackage Etimue_2018
- * @since 1.0
- * @version 1.0
- */
-
+	/**
+	 * The header for our theme
+	 *
+	 * This is the template that displays all of the <head> section and everything up until <div id="content">
+	 *
+	 * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+	 *
+	 * @package WordPress
+	 * @subpackage Etimue_2018
+	 * @since 1.0
+	 * @version 1.0
+	 */
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="profile" href="http://gmpg.org/xfn/11">
-<?php wp_head(); ?>
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<?php wp_head(); ?>
 	<!-- Microdata Schema.org https://technicalseo.com/seo-tools/schema-markup-generator/ -->
 	<script type="application/ld+json">
 {
@@ -71,11 +70,15 @@
     "https://www.youtube.com/user/etimue"
   ]
 }
-</script>
+
+	</script>
 </head>
-<?php if (!is_page_template('taplist.php')){;?>
+<?php if ( ! is_page_template( 'taplist.php' ) ){
+	; ?>
 <body <?php body_class(); ?>>
-<?php }else{echo '<body class="container">';};?>
+<?php } else {
+	echo '<body class="container">';
+}; ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'etimue2018' ); ?></a>
 
@@ -92,26 +95,28 @@
 		<?php endif; ?>
 
 	</header><!-- #masthead -->
-	<?php if (!is_page_template('taplist.php')){;?>
-	<?php
+	<?php if ( ! is_page_template( 'taplist.php' ) ) {
+		; ?>
+		<?php
 
-	/*
-	 * If a regular post or page, and not the front page, show the featured image.
-	 * Using get_queried_object_id() here since the $post global may not be set before a call to the_post().
-	 */
-	if ( ( is_single() || ( is_page() && ! etimue2018_is_frontpage() ) ) && has_post_thumbnail( get_queried_object_id() ) ) :
-		echo '<div class="single-featured-image-header">';
-		echo get_the_post_thumbnail( get_queried_object_id(), 'etimue2018-featured-image' );
-		echo '</div><!-- .single-featured-image-header -->';
-	endif;
+		/*
+		 * If a regular post or page, and not the front page, show the featured image.
+		 * Using get_queried_object_id() here since the $post global may not be set before a call to the_post().
+		 */
+		if ( ( is_single() || ( is_page() && ! etimue2018_is_frontpage() ) ) && has_post_thumbnail( get_queried_object_id() ) ) :
+			echo '<div class="single-featured-image-header">';
+			echo get_the_post_thumbnail( get_queried_object_id(), 'etimue2018-featured-image' );
+			echo '</div><!-- .single-featured-image-header -->';
+		endif;
+	};//!is_page_template('taplist.php')
 	?>
 	<?php
-		if ( function_exists('yoast_breadcrumb') ) {
-			yoast_breadcrumb('
-<p id="breadcrumbs">','</p>
-');
+		if ( function_exists( 'yoast_breadcrumb' ) ) {
+			yoast_breadcrumb( '<div class="site-content-contain"><div class="site-content"><div class="wrap"><p id="breadcrumbs">', '</p></div></div></div>' );
 		}
 	?>
+	<?php if ( ! is_page_template( 'taplist.php' ) ){
+		; ?>
 	<div class="site-content-contain">
 		<div id="content" class="site-content">
-			<?php };?>
+			<?php }; ?>

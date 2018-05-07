@@ -26,7 +26,7 @@
 	function etdispo_quickedit_fields( $column_name, $post_type, $post_id ) {
 		if ( 'et2018-quantita_birra' != $column_name )
 			return;
-// TODO sistemare colonna disponibilità
+
 		$etdispo_regi = get_post_meta( $post_id, 'et2018-quantita_birra', true );
 		?>
 		<fieldset class="inline-edit-col-right">
