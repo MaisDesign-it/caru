@@ -15,6 +15,7 @@
 	<title>Etimuè Pub Birreria ad Acireale piadineria birre artigianali</title>
 	<meta name="google-site-verification" content="h32cUFD6gnkJOxLsO_xY9E_5n_TvnaVZGQg4YmvdAFk" />
 	<meta name="msvalidate.01" content="8A1B887846DC86A089999C214AF25456" />
+	<meta property="fb:pages" content="219126991490135" />
 	<!-- Facebook Open Graph -->
 	<meta property="og:type" content="restaurant.restaurant">
 	<meta property="og:title" content="Etimuè Pub Birreria Acireale">

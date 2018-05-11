@@ -27,9 +27,8 @@
 					'visible' => array(
 						'when'     => array(
 							array( 'selettore_categoria', 'contains', '2' ),
-//array( 'selettore_categoria', 'contains', '28' ),
 						),
-						'relation' => 'or',
+						//'relation' => 'or',
 					),
 					'fields' => array(
 						array(
@@ -150,7 +149,6 @@
 					'visible' => array(
 						'when'     => array(
 							array( 'selettore_categoria', 'contains', '36' ),
-//array( 'selettore_categoria', 'contains', '5' ),
 						),
 						'relation' => 'or',
 					),
@@ -201,10 +199,11 @@
 					'name'    => 'Specifiche birre',
 					'visible' => array(
 						'when'     => array(
-//array( 'selettore_categoria', 'contains', '2' ),
 							array( 'selettore_categoria', 'contains', '28' ),
 						),
-						'relation' => 'or',
+						//'relation' => 'or',
+						// Allow to select multiple value?
+						'multiple'        => true,
 					),
 					'fields'  => array(
 						array(

@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3937bef-6cb4-4be0-8346-aadcdf50478b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/template-parts/admin/customcolumn-merge.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/admin/customcolumn-vecchio.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/admin/customcolumn-vecchio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/post/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/post/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basichome2018.php" beforeDir="false" afterPath="$PROJECT_DIR$/basichome2018.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/admin/metabox-group.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/admin/metabox-group.php" afterDir="false" />
     </list>
     <ignored mask="*.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +20,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11101">
-              <caret line="653" column="89" selection-start-line="653" selection-start-column="84" selection-end-line="653" selection-end-column="89" />
+            <state relative-caret-position="292">
+              <caret line="657" column="12" selection-start-line="657" selection-start-column="7" selection-end-line="657" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -32,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/template-parts/admin/customcolumn-vecchio.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
-              <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -41,19 +39,34 @@
         <entry file="file://$PROJECT_DIR$/template-parts/post/content.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="36" column="60" lean-forward="true" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+              <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="110" column="40" selection-start-line="110" selection-start-column="40" selection-end-line="110" selection-end-column="40" />
-              <folding>
-                <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="1717">
+              <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basichome2018.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basichome2018.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post-iframe.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/menucibo/post-iframe.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="60" column="74" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -67,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="metabox-group.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="metabox-group.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template-parts/admin/metabox-group.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="315" column="38" selection-end-line="347" selection-end-column="8" />
+            <state relative-caret-position="222">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -107,10 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>col-12</find>
-      <find>&lt;h3&gt;</find>
-      <find>h1</find>
-      <find>etimuè pub bi</find>
       <find>actual</find>
       <find>edit</find>
       <find>et2018-</find>
@@ -137,6 +146,10 @@
       <find>-vecc</find>
       <find>global</find>
       <find>-nuovo</find>
+      <find>thumbnail</find>
+      <find>_cantina</find>
+      <find>metab</find>
+      <find>28</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -206,7 +219,6 @@
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-crepe.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-insalate.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-dolci.php" />
-        <option value="$PROJECT_DIR$/basichome2018.php" />
         <option value="$PROJECT_DIR$/taplist.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/cibo-selettore.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-unici.php" />
@@ -218,11 +230,9 @@
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-piattiunici.php" />
         <option value="$PROJECT_DIR$/template-parts/cantina/cantina-loop.php" />
         <option value="$PROJECT_DIR$/js/cantina.js" />
-        <option value="$PROJECT_DIR$/template-parts/menucibo/post-iframe.php" />
         <option value="$PROJECT_DIR$/template-parts/admin/et2018column.php" />
         <option value="$PROJECT_DIR$/template-parts/admin/metabox.php" />
         <option value="$PROJECT_DIR$/single.php" />
-        <option value="$PROJECT_DIR$/template-parts/admin/metabox-group.php" />
         <option value="$PROJECT_DIR$/template-parts/single/cantina-var.php" />
         <option value="$PROJECT_DIR$/polpetta.php" />
         <option value="$PROJECT_DIR$/template-parts/admin/customcolumn-nuovo.php" />
@@ -231,6 +241,9 @@
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/template-parts/post/content.php" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/basichome2018.php" />
+        <option value="$PROJECT_DIR$/template-parts/menucibo/post-iframe.php" />
+        <option value="$PROJECT_DIR$/template-parts/admin/metabox-group.php" />
       </list>
     </option>
   </component>
@@ -266,6 +279,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="caru" type="cbb8eebc:String" user="caru" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,17 +398,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="caru" type="cbb8eebc:String" user="caru" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,64 +444,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -595,7 +550,10 @@
       <workItem from="1525542363305" duration="1833000" />
       <workItem from="1525620981464" duration="16024000" />
       <workItem from="1525650327666" duration="1831000" />
-      <workItem from="1525657131012" duration="764000" />
+      <workItem from="1525657131012" duration="960000" />
+      <workItem from="1525869178348" duration="1218000" />
+      <workItem from="1525886309137" duration="1704000" />
+      <workItem from="1526064616708" duration="777000" />
     </task>
     <task id="LOCAL-00001" summary="Primo upload">
       <created>1524173623900</created>
@@ -870,11 +828,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525648630536</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Commentata funzione per colonne personalizzate, aggiunta nuova classe (OOP Baby), da controllare e sistemare per aggiungere sortable option e stile.&#10;Dato stile di massima alla pagina cantina, da rivedere&#10;Modificato pannello controllo cantina, controllare quello tap list, corretti TYPO e aggiunto stile a breadcrumbs.">
+      <created>1525658030052</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1525658030052</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="435965000" />
+    <option name="totallyTimeSpent" value="439860000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -892,12 +857,12 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947917" weight="0.32912722" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50208336" side_tool="true" weight="0.33017877" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49791667" visible="true" weight="0.33017877" />
+      <window_info active="true" anchor="bottom" id="File Transfer" order="12" sideWeight="0.49791667" visible="true" weight="0.33017877" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32912722" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.3296875" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1046875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17760417" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -972,7 +937,8 @@
     <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Riscritta e spostata pagina cantina&#10;Aggiunto script js a cantina" />
     <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Riscritta e spostata pagina cantina&#10;Aggiunto script js a cantina&#10;Commentata funzione per colonne personalizzate, in attesa di quella nuova.&#10;Dato stile di massima alla pagina cantina, da rivedere" />
     <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Riscritta e spostata pagina cantina&#10;Aggiunto script js a cantina&#10;Commentata funzione per colonne personalizzate, aggiunta nuova classe (OOP Baby), da controllare e sistemare per aggiungere sortable option e stile.&#10;Dato stile di massima alla pagina cantina, da rivedere" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Riscritta e spostata pagina cantina&#10;Aggiunto script js a cantina&#10;Commentata funzione per colonne personalizzate, aggiunta nuova classe (OOP Baby), da controllare e sistemare per aggiungere sortable option e stile.&#10;Dato stile di massima alla pagina cantina, da rivedere" />
+    <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Commentata funzione per colonne personalizzate, aggiunta nuova classe (OOP Baby), da controllare e sistemare per aggiungere sortable option e stile.&#10;Dato stile di massima alla pagina cantina, da rivedere&#10;Modificato pannello controllo cantina, controllare quello tap list, corretti TYPO e aggiunto stile a breadcrumbs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Commentata funzione per colonne personalizzate, aggiunta nuova classe (OOP Baby), da controllare e sistemare per aggiungere sortable option e stile.&#10;Dato stile di massima alla pagina cantina, da rivedere&#10;Modificato pannello controllo cantina, controllare quello tap list, corretti TYPO e aggiunto stile a breadcrumbs." />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\wamp64\www\wordpress</wordpressPath>
@@ -1250,20 +1216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basichome2018.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="15" column="98" lean-forward="true" selection-start-line="15" selection-start-column="98" selection-end-line="15" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/post-iframe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="43" column="193" selection-start-line="43" selection-start-column="193" selection-end-line="43" selection-end-column="193" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/admin/et2018column.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1304,41 +1256,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11101">
-          <caret line="653" column="89" selection-start-line="653" selection-start-column="84" selection-end-line="653" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/admin/metabox-group.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="315" column="38" selection-end-line="347" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/admin/customcolumn-vecchio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
-          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/post/content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="36" column="60" lean-forward="true" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+          <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="110" column="40" selection-start-line="110" selection-start-column="40" selection-end-line="110" selection-end-column="40" />
-          <folding>
-            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="1717">
+          <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basichome2018.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/menucibo/post-iframe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="60" column="74" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="657" column="12" selection-start-line="657" selection-start-column="7" selection-end-line="657" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/admin/metabox-group.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
         </state>
       </provider>
     </entry>
