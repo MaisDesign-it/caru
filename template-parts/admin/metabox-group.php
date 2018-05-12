@@ -15,6 +15,7 @@
 					'placeholder' => 'Scegli la categoria',
 					'taxonomy'    => 'category',
 					'field_type'  => 'select_advanced',
+					'multiple'        => true,
 				),
 				/* Gruppo birra */
 				array(
@@ -27,8 +28,18 @@
 					'visible' => array(
 						'when'     => array(
 							array( 'selettore_categoria', 'contains', '2' ),
+							array( 'selettore_categoria', 'contains', '3' ),
+							array( 'selettore_categoria', 'contains', '4' ),
+							array( 'selettore_categoria', 'contains', '5' ),
+							array( 'selettore_categoria', 'contains', '6' ),
+							array( 'selettore_categoria', 'contains', '7' ),
+							array( 'selettore_categoria', 'contains', '8' ),
+							array( 'selettore_categoria', 'contains', '9' ),
+							array( 'selettore_categoria', 'contains', '10' ),
+							array( 'selettore_categoria', 'contains', '11' ),
+							array( 'selettore_categoria', 'contains', '12' ),
 						),
-						//'relation' => 'or',
+						'relation' => 'or',
 					),
 					'fields' => array(
 						array(
