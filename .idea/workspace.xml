@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3937bef-6cb4-4be0-8346-aadcdf50478b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/admin/metabox-group.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/admin/metabox-group.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/page-menucibo.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/page-menucibo.php" afterDir="false" />
     </list>
     <ignored mask="*.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,20 +70,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cantina-var.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/single/cantina-var.php">
+      <file leaf-file-name="metabox-group.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-parts/admin/metabox-group.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="73" />
+            <state relative-caret-position="510">
+              <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="metabox-group.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template-parts/admin/metabox-group.php">
+      <file leaf-file-name="page-menucibo.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template-parts/page-menucibo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="30" column="76" lean-forward="true" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
+            <state relative-caret-position="187">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -194,7 +194,6 @@
       <list>
         <option value="$PROJECT_DIR$/template-parts/menucibo/antipasti.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/area-piatti-unici.php" />
-        <option value="$PROJECT_DIR$/template-parts/page-menucibo.php" />
         <option value="$PROJECT_DIR$/template-parts/taplist/via-vuota.php" />
         <option value="$PROJECT_DIR$/js/iubenda.js" />
         <option value="$PROJECT_DIR$/template-parts/taplist/spine-loop.php" />
@@ -243,6 +242,7 @@
         <option value="$PROJECT_DIR$/basichome2018.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/post-iframe.php" />
         <option value="$PROJECT_DIR$/template-parts/admin/metabox-group.php" />
+        <option value="$PROJECT_DIR$/template-parts/page-menucibo.php" />
       </list>
     </option>
   </component>
@@ -278,6 +278,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="caru" type="cbb8eebc:String" user="caru" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -381,17 +392,6 @@
             <path>
               <item name="caru" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="caru" type="cbb8eebc:String" user="caru" />
             </path>
           </expand>
           <select />
@@ -553,7 +553,8 @@
       <workItem from="1525869178348" duration="1218000" />
       <workItem from="1525886309137" duration="1704000" />
       <workItem from="1526064616708" duration="1502000" />
-      <workItem from="1526149778010" duration="359000" />
+      <workItem from="1526149778010" duration="640000" />
+      <workItem from="1526234337604" duration="759000" />
     </task>
     <task id="LOCAL-00001" summary="Primo upload">
       <created>1524173623900</created>
@@ -842,11 +843,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526065513223</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Commentata funzione per colonne personalizzate, aggiunta nuova classe (OOP Baby), da controllare e sistemare per aggiungere sortable option e stile.&#10;Dato stile di massima alla pagina cantina, da rivedere&#10;Modificato pannello controllo cantina, controllare quello tap list, corretti TYPO e aggiunto stile a breadcrumbs.&#10;Sminchiati un poco meta con relazioni nuove, se fosse successo un casino è successo oggi: 11/05/18&#10;Aggiunto 'multiple'        =&gt; true,   nel punto giusto">
+      <created>1526150253025</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1526150253026</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="440944000" />
+    <option name="totallyTimeSpent" value="441984000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -946,7 +954,8 @@
     <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Riscritta e spostata pagina cantina&#10;Aggiunto script js a cantina&#10;Commentata funzione per colonne personalizzate, aggiunta nuova classe (OOP Baby), da controllare e sistemare per aggiungere sortable option e stile.&#10;Dato stile di massima alla pagina cantina, da rivedere" />
     <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Commentata funzione per colonne personalizzate, aggiunta nuova classe (OOP Baby), da controllare e sistemare per aggiungere sortable option e stile.&#10;Dato stile di massima alla pagina cantina, da rivedere&#10;Modificato pannello controllo cantina, controllare quello tap list, corretti TYPO e aggiunto stile a breadcrumbs." />
     <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Commentata funzione per colonne personalizzate, aggiunta nuova classe (OOP Baby), da controllare e sistemare per aggiungere sortable option e stile.&#10;Dato stile di massima alla pagina cantina, da rivedere&#10;Modificato pannello controllo cantina, controllare quello tap list, corretti TYPO e aggiunto stile a breadcrumbs.&#10;Sminchiati un poco meta con relazioni nuove, se fosse successo un casino è successo oggi: 11/05/18" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Commentata funzione per colonne personalizzate, aggiunta nuova classe (OOP Baby), da controllare e sistemare per aggiungere sortable option e stile.&#10;Dato stile di massima alla pagina cantina, da rivedere&#10;Modificato pannello controllo cantina, controllare quello tap list, corretti TYPO e aggiunto stile a breadcrumbs.&#10;Sminchiati un poco meta con relazioni nuove, se fosse successo un casino è successo oggi: 11/05/18" />
+    <MESSAGE value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Commentata funzione per colonne personalizzate, aggiunta nuova classe (OOP Baby), da controllare e sistemare per aggiungere sortable option e stile.&#10;Dato stile di massima alla pagina cantina, da rivedere&#10;Modificato pannello controllo cantina, controllare quello tap list, corretti TYPO e aggiunto stile a breadcrumbs.&#10;Sminchiati un poco meta con relazioni nuove, se fosse successo un casino è successo oggi: 11/05/18&#10;Aggiunto 'multiple'        =&gt; true,   nel punto giusto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Commentata funzione per colonne personalizzate, aggiunta nuova classe (OOP Baby), da controllare e sistemare per aggiungere sortable option e stile.&#10;Dato stile di massima alla pagina cantina, da rivedere&#10;Modificato pannello controllo cantina, controllare quello tap list, corretti TYPO e aggiunto stile a breadcrumbs.&#10;Sminchiati un poco meta con relazioni nuove, se fosse successo un casino è successo oggi: 11/05/18&#10;Aggiunto 'multiple'        =&gt; true,   nel punto giusto" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\wamp64\www\wordpress</wordpressPath>
@@ -1175,13 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/page-menucibo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/cantina.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1308,8 +1310,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/admin/metabox-group.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="76" lean-forward="true" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
+        <state relative-caret-position="510">
+          <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-parts/page-menucibo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>

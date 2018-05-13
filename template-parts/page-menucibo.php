@@ -6,6 +6,11 @@
 	*/
 	get_header();?>
 	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h4>Preferisci un menu in PDF su Facebook? <a href="https://www.facebook.com/pg/etimue/menu/" title="Menu su Facebook" target="_blank">Clicca qui</a></h4>
+			</div>
+		</div>
 	<?php get_template_part('template-parts/menucibo/cibo','selettore');?>
 	<hr class="featurette-divider">
 	<?php get_template_part('template-parts/menucibo/area','antipasti');?>
