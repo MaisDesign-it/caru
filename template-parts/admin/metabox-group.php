@@ -212,9 +212,6 @@
 						'when'     => array(
 							array( 'selettore_categoria', 'contains', '28' ),
 						),
-						//'relation' => 'or',
-						// Allow to select multiple value?
-						'multiple'        => true,
 					),
 					'fields'  => array(
 						array(
@@ -308,7 +305,7 @@
 							'clone'       => true,
 							'collapsible' => true,
 							'save_state'  => true,
-							'group_title' => array( 'field' => 'person' ),
+							'group_title' => array( 'field' => $prefix . 'annata_birra' ),
 							'fields'      => array(
 								array(
 									'id'      => $prefix . 'formato_birra',

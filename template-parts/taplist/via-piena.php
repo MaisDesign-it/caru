@@ -1,3 +1,4 @@
+<div class="col bollospina"><?php echo get_the_post_thumbnail('','etimue2018-thumbnail-avatar');?></div>
 <div class="col birrificio">
 	<?php
 		$passaggio = get_post_meta($post->ID, 'gruppo_birra', true);
@@ -39,7 +40,7 @@
 		<?php echo $birrificio; ?>
 	</a>
 </div><!--.birrificio-->
-</div>
+</div> <?php /* TODO RISCRIVERE COMPLETAMENTE LA TAPLIST */ ;?>
 <div class="row">
 	<div class="col gradazione">
 		<strong><?php echo $gradazione; ?>%</strong>

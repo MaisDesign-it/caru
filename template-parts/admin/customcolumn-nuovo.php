@@ -19,14 +19,21 @@
 			switch ( $column ) {
 				case 'column_id';
 					global $post;
-					$passaggiocantina = get_post_meta( $post->ID, 'gruppo_cantina', true );
-					$format           = $passaggiocantina;
-					if ( isset ( $format['avanzate'] ) ) {
-						$avanzate = $format['avanzate'];
-						foreach ( $avanzate as $avanzi ) {
-							echo '<div class="row">( A: '.$avanzi['et2018-annata_birra'].' F: '.$avanzi['et2018-formato_birra'].' Qt: '.$avanzi['et2018-quantita_birra'].')</div>';
+					if (is_category('cantina')) {
+						$passaggiocantina = get_post_meta( $post->ID, 'gruppo_cantina', true );
+						$format           = $passaggiocantina;
+						if ( isset ( $format['avanzate'] ) ) {
+							$avanzate = $format['avanzate'];
+							$numeratore = 1;
+							foreach ( $avanzate as $avanzi ) {
+								${'cantina' . $numeratore} = '<div class="row">( A: ' . $avanzi['et2018-annata_birra'] . ' F: ' . $avanzi['et2018-formato_birra'] . ' Qt: ' . $avanzi['et2018-quantita_birra'] . ')</div>';
+								echo ${'cantina' . $numeratore};
+								++$numeratore; /** TODO usando la variabile $cantina . $numeratore si potrebbe usare js per modificarlo **/
+							};
 						};
-					};
+					}else{
+						echo 'Non cantina';
+					}
 					break;
 				// More columns
 			}
