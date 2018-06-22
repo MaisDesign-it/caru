@@ -1,7 +1,8 @@
 <?php global $post;
 	$passaggiocantina = get_post_meta( $post->ID, 'gruppo_cantina', true );
 	$format           = $passaggiocantina;
-	$avanzate         = $format['avanzate'];
+	if (!empty($format['avanzate'])){
+		$avanzate         = $format['avanzate'];
 	echo '<div class="col-12"><h4>Situazione in cantina</h4></div><hr>';
 	foreach ( $avanzate as $avanzi ) {
 		echo '<div class="row">';
@@ -14,7 +15,7 @@
 				echo '<div class="col">'.$avant.'</div>';
 		} */
 		echo '</div><hr>';
-	};
+	};}
 
 	?>
 
