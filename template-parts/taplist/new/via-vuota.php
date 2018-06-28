@@ -1,1 +1,1 @@
-<div class="col birrificio">Via chiusa per manutenzione</div>
+<div class="col vuota">Via chiusa per manutenzione</div><!-- .col .vuota -->

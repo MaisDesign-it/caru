@@ -452,15 +452,19 @@
 			wp_enqueue_script( 'et-allscript', get_theme_file_uri( '/js/page-menucibo.js' ), 'jquery', '1.0', true );
 			wp_enqueue_script( 'iubendabasic', "//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js", 'iubendapersonal', '1.0', true );
 			wp_enqueue_script( 'iubendapersonal', get_theme_file_uri( '/js/iubenda.js' ), 'jquery', '1.0', true );
-		}elseif (is_page_template('template-parts/cantina.php')){
-			wp_enqueue_style('cantinaccordion',get_theme_file_uri('css/specifici/cantina.css'),'','1.0.0.1');
-			wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css'),'','1.0.0.1'  );
+		}elseif (is_page_template('template-parts/cantina.php')) {
+			wp_enqueue_style( 'cantinaccordion', get_theme_file_uri( 'css/specifici/cantina.css' ), '', '1.0.0.1' );
+			wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css' ), '', '1.0.0.1' );
 			wp_enqueue_script( 'et-popper', "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js", 'jquery', '1.0.0.4', true );
 			wp_enqueue_script( 'et-lazy', get_theme_file_uri( '/js/lazyload.js' ), 'jquery', '1.0.0.2', true );
 			wp_enqueue_script( 'et-bootstrap', "//maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js", 'et-popper', '1.0.0.3', true );
-			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js#asyncload",'iubendapersonal','1.0.0.2',true);
-			wp_enqueue_script('iubendapersonal',get_theme_file_uri( '/js/iubenda.js#asyncload'),'jquery','1.0.0.2',true);
-			wp_enqueue_script('cantinascript',get_theme_file_uri( '/js/cantina.js'),'et-bootstrap','1.0.0.4',true);
+			wp_enqueue_script( 'iubendabasic', "//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js#asyncload", 'iubendapersonal', '1.0.0.2', true );
+			wp_enqueue_script( 'iubendapersonal', get_theme_file_uri( '/js/iubenda.js#asyncload' ), 'jquery', '1.0.0.2', true );
+			wp_enqueue_script( 'cantinascript', get_theme_file_uri( '/js/cantina.js' ), 'et-bootstrap', '1.0.0.4', true );
+		}elseif ( is_page_template( 'template-parts/taplistnew.php' ) ) {
+			wp_enqueue_style( 'not-not-homepage', get_theme_file_uri( '/css/bootstrap-grid.min.css' ) );
+			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js",'iubendapersonal','1.0',true);
+			wp_enqueue_script('iubendapersonal',get_theme_file_uri( '/js/iubenda.js'),'jquery','1.0',true);
 		}else {
 			wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css' ) );
 			wp_enqueue_style( 'not-not-homepage', get_theme_file_uri( '/css/bootstrap-grid.min.css' ) );
