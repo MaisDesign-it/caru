@@ -465,6 +465,7 @@
 			wp_enqueue_style( 'not-not-homepage', get_theme_file_uri( '/css/bootstrap-grid.min.css' ) );
 			wp_enqueue_script('iubendabasic',"//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js",'iubendapersonal','1.0',true);
 			wp_enqueue_script('iubendapersonal',get_theme_file_uri( '/js/iubenda.js'),'jquery','1.0',true);
+			wp_enqueue_style( 'tapspecific', get_theme_file_uri( '/css/tapspecific.css' ) );
 		}else {
 			wp_enqueue_style( 'not-homepage', get_theme_file_uri( '/css/mainstyle.css' ) );
 			wp_enqueue_style( 'not-not-homepage', get_theme_file_uri( '/css/bootstrap-grid.min.css' ) );
