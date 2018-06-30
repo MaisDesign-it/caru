@@ -58,10 +58,14 @@
 					if (isset($panini['et2018-img_high_res'])){
 						$imghigh = $panini['et2018-img_high_res'];
 					};
-				    if (isset ($imglow)){$imglinkl = wp_get_attachment_url( $imglow );};
-					if (isset ($imghigh)){$imglinkh = wp_get_attachment_url( $imghigh );}
+				    /*if (isset ($imglow)){$imglinkl = wp_get_attachment_url( $imglow );};
+					if (isset ($imghigh)){$imglinkh = wp_get_attachment_url( $imghigh );}*/
+
+					if (isset ($imglow)){$imglinkl = wp_get_attachment_image_src( $imglow ,'etimue2018-single-bun');};
+					if (isset ($imghigh)){$imglinkh = wp_get_attachment_image_src( $imghigh ,'etimue2018-single-bun');}
+
 					if ((isset($imglinkh))||(isset($imglinkl))){;?>
-						<img class="lazyload rounded-circle col-sm-12" src="<?php echo $imglinkl; ?>" data-src="<?php echo $imglinkh; ?>" height="512" width="512" alt="<?php the_title();?>" />
+						<img style="max-width:500px" class="lazyload rounded-circle offset-xs-0 col-sm-1 offset-md-2 offset-lg-3 offset-xl-3 buninframe" src="<?php echo $imglinkl[0]; ?>" data-src="<?php echo $imglinkh[0]; ?>" alt="<?php the_title();?>" />
 				<?php };?>
 			</div>
 		</div>
