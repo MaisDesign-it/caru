@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3937bef-6cb4-4be0-8346-aadcdf50478b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/css/taps.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tapspecific.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tapspecific.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/selettore/selettore-desktop.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/selettore/selettore-desktop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/menucibo/selettore/selettore-mobile.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/menucibo/selettore/selettore-mobile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/taplistnew.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/taplistnew.php" afterDir="false" />
     </list>
     <ignored mask="*.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7803">
-              <caret line="467" column="94" selection-start-line="467" selection-start-column="94" selection-end-line="467" selection-end-column="94" />
+            <state relative-caret-position="187">
+              <caret line="469" column="81" selection-start-line="469" selection-start-column="72" selection-end-line="469" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -48,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="taps.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="taps.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/taps.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
@@ -124,7 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>et2018-disponibilita</find>
       <find>disponibilità</find>
       <find>disponibilita</find>
       <find>et2018_Custom_Admin_Columns</find>
@@ -154,6 +148,7 @@
       <find>.contain</find>
       <find>wrap</find>
       <find>piadina</find>
+      <find>mainstyle</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -244,10 +239,10 @@
         <option value="$PROJECT_DIR$/template-parts/menucibo/post-iframe.php" />
         <option value="$PROJECT_DIR$/template-parts/taplistnew.php" />
         <option value="$PROJECT_DIR$/css/tapspecific.css" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/selettore/selettore-desktop.php" />
         <option value="$PROJECT_DIR$/template-parts/menucibo/selettore/selettore-mobile.php" />
         <option value="$PROJECT_DIR$/css/taps.css" />
+        <option value="$PROJECT_DIR$/functions.php" />
       </list>
     </option>
   </component>
@@ -538,14 +533,7 @@
       <workItem from="1530376095778" duration="2315000" />
       <workItem from="1530479877663" duration="2690000" />
       <workItem from="1531434940203" duration="698000" />
-      <workItem from="1531609834935" duration="640000" />
-    </task>
-    <task id="LOCAL-00001" summary="Primo upload">
-      <created>1524173623900</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1524173623900</updated>
+      <workItem from="1531609834935" duration="847000" />
     </task>
     <task id="LOCAL-00002" summary="Secondo upload">
       <created>1524177049754</created>
@@ -883,11 +871,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530376687696</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Aggiunta parte BGB, da rivedere tutte le metakey&#10;Splittato Selettore in menucibo, controllare css&#10;Aggiunti prezzi a tutte le pietanze, aggiunto css social a page-menucibo-actual, che sia il caso di minimizzarlo?&#10;Commentata funzione per colonne personalizzate, aggiunta nuova classe (OOP Baby), da controllare e sistemare per aggiungere sortable option e stile.&#10;Dato stile di massima alla pagina cantina, da rivedere&#10;Modificato pannello controllo cantina, controllare quello tap list, corretti TYPO e aggiunto stile a breadcrumbs.&#10;Sminchiati un poco meta con relazioni nuove, se fosse successo un casino è successo oggi: 11/05/18&#10;Aggiunto 'multiple'        =&gt; true,   nel punto giusto&#10;Aggiunto link a menu su FB&#10;Rivedere la TapList">
+      <created>1531610503643</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1531610503643</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="486244000" />
+    <option name="totallyTimeSpent" value="486451000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1316,13 +1311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7803">
-          <caret line="467" column="94" selection-start-line="467" selection-start-column="94" selection-end-line="467" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/menucibo/area-piadina.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1348,6 +1336,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="1503" column="1" selection-start-line="1503" selection-start-column="1" selection-end-line="1503" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="469" column="81" selection-start-line="469" selection-start-column="72" selection-end-line="469" selection-end-column="81" />
         </state>
       </provider>
     </entry>
