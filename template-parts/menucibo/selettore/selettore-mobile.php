@@ -30,7 +30,7 @@
 	</div><!-- .row -->
 	<div class="row">
 		<div class="col">
-			<a href="#piadina"><img class="lazyload rounded-circle" style="margin-left: 25%"
+			<a href="#piadine"><img class="lazyload rounded-circle" style="margin-left: 25%"
 			     src="<?php echo get_stylesheet_directory_uri(); ?>/img/selettore/mobile/bn/piadina.png"
 			     data-src="<?php echo get_stylesheet_directory_uri(); ?>/img/selettore/mobile/piadina.png"
 			     height="128" width="128"

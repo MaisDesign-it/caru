@@ -42,7 +42,7 @@
 			/>
 			<h2>Piadina artigianale</h2>
 			<p>Le nostre piadine realizzate a mano.</p>
-			<p><a class="btn btn-outline-info btn-block" href="#piadina" role="button">Scopri di più &raquo;</a></p>
+			<p><a class="btn btn-outline-info btn-block" href="#piadine" role="button">Scopri di più &raquo;</a></p>
 		</div><!-- /.col -->
 
 	</div><div class="row">
